@@ -1,9 +1,9 @@
 'use strict';
 
 const gulp = require('gulp'),
-  plugins = require('gulp/gulp-plugins'),
-  paths = require('gulp/gulp-paths'),
-  functions = require('gulp/gulp-functions');
+  plugins = require('./gulp/gulp-plugins'),
+  paths = require('./gulp/gulp-paths'),
+  functions = require('./gulp/gulp-functions');
 
 const isDevMode = functions.isDevMode();
 
