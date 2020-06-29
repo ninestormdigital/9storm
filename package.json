@@ -20,7 +20,8 @@
   },
   "homepage": "https://github.com/brunosilva/slider#readme",
   "dependencies": {
-    "bootstrap": "^4.5.0"
+    "bootstrap": "^4.5.0",
+    "lodash": "^4.17.15"
   },
   "devDependencies": {
     "@babel/core": "^7.7.2",
