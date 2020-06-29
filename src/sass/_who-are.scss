@@ -1,0 +1,121 @@
+.who-are{
+  background-color: $gray;
+  
+  .container{
+    padding: 120px 0;
+    display: flex;
+    justify-content: space-between;
+
+    .content{
+      width: calc(100vw - 50%);
+
+    .who-are-title{
+      font-family: 'Inter', sans-serif !important;
+      align-self: flex-start;
+      font-size: 25pt;
+      font-weight: bolder;
+      color: $blue-company;
+      margin-bottom: 40px;
+    }
+    .who-are-text{
+      color: $black;
+      font-family: 'Raleway', sans-serif !important;
+      margin-bottom: 19px;
+    }
+
+    .who-are-subtitle{
+      font-size: 18pt;
+      font-weight: bold;
+      color: $blue-company;
+      margin-bottom: 75px;
+      font-family: 'Raleway', sans-serif !important;
+      margin-bottom: 97px;
+    }
+    .who-are-btn{
+      height: 44px;
+      width: 280px;
+      padding: 5px;
+      color: $white;
+      border: none;
+      background: $blue-company;
+      font-family: 'Raleway', sans-serif !important;
+    }
+  }
+
+    .stack-folders{
+      width: calc(100vw - 50%);
+      display: flex;
+      flex-wrap: wrap;
+
+      .folder{
+        display: flex;
+        position: relative;
+        margin-left: 30px;
+        margin-bottom: 30px;
+      }
+
+      .hustler-team{
+        opacity: 0.0;
+        position: absolute;
+        transition: 1s;
+      }
+
+      .hyper-team{
+        opacity: 0;
+        position: absolute;
+      }
+
+      .hacker-team{
+        opacity: 0;
+        position: absolute;
+      }
+
+      .hipster-team{
+        opacity: 0;
+        position: absolute;
+      }
+    }
+  }
+}
+
+.hustler-team:hover{
+  animation-name: fadeOnHover;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.hyper-team:hover{
+  animation-name: fadeOnHover;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.hacker-team:hover{
+  animation-name: fadeOnHover;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.hipster-team:hover{
+  animation-name: fadeOnHover;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeOnHover{
+  0%{
+    opacity: 0;
+    margin-left: -10px;
+    margin-top: -10px;
+  }
+
+  100%{
+    opacity: 1;
+    margin-left: -30px;
+    margin-top: -40px;
+  }
+}

@@ -1,0 +1,34 @@
+.full-banner{
+    position: relative;
+    background: url("../../assets/images/fullbanner.png") no-repeat;
+    background-size: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .message{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+        img{
+            width: 450px;
+            margin: 0 auto;
+        }
+
+        h2{
+            font-family: 'Raleway', sans-serif !important;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 30px;
+            line-height: 35px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            text-transform: uppercase;
+            color: $white;
+        }
+    }
+}

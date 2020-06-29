@@ -1,0 +1,50 @@
+{
+  "name": "slider",
+  "version": "1.0.0",
+  "description": "slider",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "cross-env NODE_ENV=development node_modules/.bin/gulp --gulpfile gulp/gulpfile.js --mode development",
+    "dev": "cross-env NODE_ENV=development node_modules/.bin/gulp dev --gulpfile gulp/gulpfile.js --mode development",
+    "prod": "cross-env NODE_ENV=production node_modules/.bin/gulp prod --gulpfile gulp/gulpfile.js --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunosilva/slider.git"
+  },
+  "author": "Bruno Silva <brs.rsilva@gmail.com> (https://www.linkedin.com/in/bruno-silva0109/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brunosilva/slider/issues"
+  },
+  "homepage": "https://github.com/brunosilva/slider#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1",
+    "cross-env": "^7.0.2",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-clean-css": "^3.9.0",
+    "gulp-concat": "2.6.1",
+    "gulp-cssimport": "^7.0.0",
+    "gulp-cssmin": "0.2.0",
+    "gulp-empty-pipe": "^5.0.0",
+    "gulp-imagemin": "^6.0.0",
+    "gulp-notify": "3.2.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sequence": "^1.0.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "3.0.2",
+    "gulp-watch": "^5.0.1",
+    "merge-stream": "^2.0.0",
+    "node-sass": "^4.13.1",
+    "rimraf": "2.6.2",
+    "yargs": "^15.3.1"
+  }
+}

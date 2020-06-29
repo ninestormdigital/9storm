@@ -1,0 +1,18 @@
+.team{
+    background-color: $gray;
+    width: 100%;
+
+    .title{
+        font-family: 'Inter', sans-serif !important;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 39px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: $blue-company;
+    }
+
+}

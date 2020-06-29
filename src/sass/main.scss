@@ -1,0 +1,17 @@
+@import 'variables';
+@import 'mixin';
+@import 'header';
+@import 'team';
+@import 'carousel';
+@import 'full-banner';
+@import 'who-are';
+@import 'mission';
+@import 'online-meeting';
+@import 'footer';
+
+
+body{
+    margin: 0;
+    font-family: Raleway;
+    overflow-x: hidden;
+}

@@ -1,0 +1,66 @@
+.online-meeting{
+  width: 100%;
+  display: flex;
+  flex-direction: column;  
+  align-items: center;
+  justify-content: space-around;
+  background: $beige;
+  padding: 120px 0;
+
+  h3{
+    font-family: 'Inter', sans-serif !important;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 39px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: $blue-company;
+    margin-bottom: 40px;
+
+  }
+
+  img{
+    width: 706px;
+    height: 389px;
+    margin-bottom: 83px;
+  }
+
+  .online-meeting-text{
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    margin-bottom: 80px;
+    font-family: 'Raleway', sans-serif !important;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 0.02em;
+    color: $blue-company;
+    padding: 0 80px;
+    
+    p{
+      text-align: left;
+      width: 500px;
+      flex-wrap: wrap;
+      padding: 0 30px;
+      font-size: 16px;
+      line-height: 22px;
+    }
+  }
+
+  h4{
+    font-weight: bold;
+    color: $blue-company;
+    font-family: 'Raleway', sans-serif !important;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+  }
+}

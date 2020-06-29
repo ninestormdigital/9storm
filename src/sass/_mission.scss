@@ -1,0 +1,65 @@
+.mission{
+  background-color: $blue-company;
+  width: 100%;
+  font-family: 'Raleway', sans-serif !important;
+  
+  .container{
+      padding: 120px 0;
+      display: flex;
+
+      div{
+          width: calc(100vw / 4);
+          padding: 10px;
+
+          p{
+              font-family: Raleway;
+              font-style: normal;
+              font-weight: 800;
+              font-size: 16px;
+              line-height: 19px;
+              display: flex;
+              align-items: center;
+              text-align: center;
+              text-transform: uppercase;
+
+              color: $white;
+
+          }
+      }
+
+      .title{
+        font-family: 'Raleway', sans-serif !important;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 32px;
+        line-height: 38px;
+        flex-wrap: wrap;
+        color: $white;
+      }
+
+      .Comprometimento, .Clareza, .Força{
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          padding: 0 40px;
+
+          p{
+              display: flex;
+              justify-content: center;
+              text-align: center;
+          }
+
+          span{
+              font-family: Raleway;
+              font-style: normal;
+              font-weight: normal;
+              font-size: 16px;
+              line-height: 24px;
+              text-align: center;
+              color: $white;
+              opacity: 0.6;
+          }
+      }
+  }
+  
+}
