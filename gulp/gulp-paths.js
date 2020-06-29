@@ -1,8 +1,8 @@
-const publicRoot = '..',
+const publicRoot = '/opt/build/repo',
   root = `${publicRoot}`,
   paths = {
-    src: `${root}/opt/build/repo`,
-    dist: `${root}/dist`,
+    src: `${root}/src`,
+    dist: `${root}/assets`,
     js: 'js',
     css: 'css',
     scss: 'sass',
