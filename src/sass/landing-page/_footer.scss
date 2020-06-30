@@ -20,8 +20,41 @@
             align-items: center;
             width: 223px !important;
             margin: 0 auto;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 19px;
             
             @include btn-download($white, $black);
+        }
+    }
+    .last-container{
+        border-top: 2px solid white;
+        height: 148px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        span{
+            color: $white;
+            font-family: Nunito;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 22px;
+        }
+        .logo-white{
+            width: 135px;
+            height: 50px;
+            filter: invert(100%);
+        }
+    }
+
+    @media screen and (max-width: 540px) {
+        .last-container{
+            flex-direction: column;
+            height: 220px;
+            justify-content: space-evenly;
         }
     }
 }
