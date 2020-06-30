@@ -1,0 +1,54 @@
+.thank-you-page{
+  // display: flex;
+  display: none; //desabilitado
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100vh;
+  padding: 15px;
+  background: $gray;
+  h1{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 69px;
+    text-align: center;
+  }
+  h2{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+  }
+  p{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+  }
+  h3{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 37px;
+  }
+  button{
+    width: 203px;
+    margin-top: 30px;
+    background: black;
+    color: $white;
+    border: none;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 10px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+  }
+}
