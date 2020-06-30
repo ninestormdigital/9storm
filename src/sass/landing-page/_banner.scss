@@ -72,7 +72,7 @@
                 margin: 0 auto;
             }
             
-            @extend .btn-download;
+            @include btn-download($black, $white);
         }
         
     }

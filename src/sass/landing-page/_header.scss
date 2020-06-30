@@ -23,7 +23,7 @@
         }
 
         .btn-download{
-            @extend .btn-download;
+            @include btn-download($black, $white);
 
             @media screen and (max-width: 767px) {
                 display: none;
