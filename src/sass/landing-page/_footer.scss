@@ -1,0 +1,27 @@
+.footer{
+    background-color: $black;
+
+    .container{
+        padding-top: 80px;
+        padding-bottom: 80px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+
+        .title{
+            margin-bottom: 40px;
+            color: $white;
+        }
+
+        .btn-download{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 223px !important;
+            margin: 0 auto;
+            
+            @include btn-download($white, $black);
+        }
+    }
+}
