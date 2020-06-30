@@ -1,4 +1,4 @@
-const publicRoot = '/opt/build/repo',
+const publicRoot = '..',
   root = `${publicRoot}`,
   paths = {
     src: `${root}/src`,
@@ -19,6 +19,13 @@ module.exports = {
         src: `${paths.src}/${paths.scss}/main.scss`,
         dist: `${paths.dist}/${paths.css}`,
         filename: 'main.css' 
+      }
+    },
+    landingpage: {
+      scss: {
+        src: `${paths.src}/${paths.scss}/landing-page/module.scss`,
+        dist: `${paths.dist}/${paths.css}`,
+        filename: 'landing-page.css' 
       }
     }
   },
