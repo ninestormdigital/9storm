@@ -1,0 +1,50 @@
+.checklist{
+    .container{
+        padding-top: 80px;
+        padding-bottom: 80px;
+
+        .title{
+            font-family: 'Ubuntu', sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 32px;
+            line-height: 37px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: $black;
+            flex: none;
+            order: 0;
+            align-self: center;
+            margin: 10px auto 57px;
+            width: 485px;
+            flex-wrap: wrap;
+
+
+            @media screen and (max-width: 767px) {
+                width: 100%;
+                text-align: center;
+            }
+        }
+
+        .itens{
+            display: flex;
+
+            div{
+                display: flex;
+                justify-content: center;
+                text-align: center;
+                flex-direction: column;
+
+                img{
+                    width: 50px;
+                    margin: 0 auto;
+                }
+            }
+
+            @media screen and (max-width: 767px) {
+                flex-direction: column;
+            }
+        }
+    }
+}
