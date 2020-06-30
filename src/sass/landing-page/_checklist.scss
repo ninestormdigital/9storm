@@ -36,6 +36,33 @@
                 text-align: center;
                 flex-direction: column;
 
+                p{
+                    i{
+                        display: none;
+                    }
+                }
+
+                @media screen and (max-width: 767px) {
+                    display: flex;
+                    flex-direction: row;
+
+                    img{
+                        display: none
+                    }
+
+                    p{
+                        width: 100%;
+                        display: flex;
+                        align-items: center;
+                        margin-bottom: 20px;
+
+                        i{
+                            margin-right: 17px;
+                            display: block;
+                        }
+                    }
+                }
+
                 img{
                     width: 50px;
                     margin: 0 auto;
