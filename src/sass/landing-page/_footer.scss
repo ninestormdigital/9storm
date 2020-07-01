@@ -11,7 +11,7 @@
 
         .title{
             margin-bottom: 40px;
-            font-family: Ubuntu;
+            font-family: 'Ubuntu', sans-serif;
             font-style: normal;
             font-weight: bold;
             font-size: 32px;
@@ -24,7 +24,7 @@
             align-items: center;
             width: 223px !important;
             margin: 0 auto;
-            font-family: Raleway;
+            font-family: 'Raleway', sans-serif;
             font-style: normal;
             font-weight: bold;
             font-size: 16px;
@@ -41,7 +41,7 @@
         justify-content: space-around;
         span{
             color: $white;
-            font-family: Nunito;
+            font-family: 'Nunito', sans-serif;
             font-style: normal;
             font-weight: normal;
             font-size: 16px;
