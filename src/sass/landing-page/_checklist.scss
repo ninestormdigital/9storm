@@ -78,6 +78,7 @@
             width: 100%;
             overflow: hidden;
             z-index: 2;
+            padding-bottom: 50px;
 
             .carousel{
                 width: 100%;
@@ -93,7 +94,9 @@
                     position: absolute;
                     align-items: center;
                     z-index: 9;
+                    top: calc(110% + 50px);
                 }
+
                 button.slick-next.slick-arrow{
                     display: flex !important;
                     background-color: #000;
@@ -104,6 +107,7 @@
                     position: absolute;
                     align-items: center;
                     z-index: 9;
+                    top: calc(110% + 50px);
                 }
                 
                 .slick-list.draggable{
@@ -124,13 +128,13 @@
 
         .carousel-phone{
             background: url("../../assets/images/carousel/phone-front.png") top center no-repeat;
-            background-size: 320px 598px;
+            background-size: 320px 522px;
             height: 604px;
             width: 320px;
             margin: auto;
             pointer-events: none;
             position: absolute;
-            top: -8px;
+            top: -5px;
             left: 0;
             right: 1px;
             z-index: 3;

@@ -62,12 +62,22 @@
       line-height: 37px;
       text-align: center;
     }
-    button{
-      width: 203px;
-      background: black;
-      color: $white;
+    .btn-download{
+      margin: 40px 20px 150px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 40px;
+        width: 220px;
+        background: $black;
+        color: $white;
+        border-radius: 8px;
+
+
+
       border: none;
-      border-radius: 8px;
+
       padding: 15px;
       font-family: 'Nunito', sans-serif;
       font-style: normal;
@@ -87,10 +97,18 @@
         padding-right: 20px;
       }
   
-      button{
+      .btn-download{
         margin: 40px 20px 150px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 40px;
+        width: 220px;
+        background: $black;
+        color: $white;
+        border-radius: 8px;
       }
     }
-
   }
 }
