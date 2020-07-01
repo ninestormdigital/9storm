@@ -65,4 +65,77 @@
             }
         }
     }
+
+    #carousel-container{
+        margin-bottom: 160px;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        width: 100%;
+        position: relative;
+
+        .carousel-wrapper{
+            position: relative;
+            width: 100%;
+            overflow: hidden;
+            z-index: 2;
+
+            .carousel{
+                width: 100%;
+                margin: 30px 0 70px 0;
+
+                button.slick-prev.slick-arrow{
+                    display: flex !important;
+                    background-color: #000;
+                    height: 40px;
+                    width: 30px;
+                    justify-content: center;
+                    left: calc(95vw / 2);
+                    position: absolute;
+                    z-index: 9;
+                }
+                button.slick-next.slick-arrow{
+                    display: flex !important;
+                    background-color: #000;
+                    height: 40px;
+                    width: 30px;
+                    justify-content: center;
+                    right: calc(95vw / 2);
+                    position: absolute;
+                    z-index: 9;
+                }
+                
+                .slick-list.draggable{
+                    right: 12px;
+                }
+    
+                .slick-track{
+                    width: 3000px !important;
+                    display: flex;
+                    justify-content: space-around;
+                }
+    
+                .slick-slide.slick-active, .slick-slide{
+                    margin: 0 28px;
+                }
+            }
+        }
+
+        .carousel-phone{
+            background: url("../../assets/images/carousel/phone-front.png") top center no-repeat;
+            background-size: 320px 598px;
+            height: 604px;
+            width: 320px;
+            margin: auto;
+            pointer-events: none;
+            position: absolute;
+            top: -8px;
+            left: 0;
+            right: 1px;
+            z-index: 3;
+
+            @media screen and (max-width: 767px) {
+                top: 1140px !important;
+            }
+        }
+    }
 }

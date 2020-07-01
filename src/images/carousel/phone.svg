@@ -1,0 +1,21 @@
+<svg viewBox="0 0 309 587" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <path d="M14.1954927,38.000579 C14.1954927,17.0134387 31.2056998,0 52.1979552,0 L224.739362,0 C245.727542,0 262.741824,17.0088097 262.741824,38.000579 L262.741824,488.917644 C262.741824,509.904785 245.731617,526.918223 224.739362,526.918223 L52.1979552,526.918223 C31.2097747,526.918223 14.1954927,509.909414 14.1954927,488.917644 L14.1954927,38.000579 Z M31.0720955,71.991734 L31.0720955,454.926489 L245.865222,454.926489 L245.865222,71.991734 L31.0720955,71.991734 Z" id="path-1"></path>
+        <filter x="-18.1%" y="-8.5%" width="136.2%" height="117.1%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="15" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.124830163 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-565.000000, -4255.000000)">
+            <g transform="translate(581.000000, 4285.000000)">
+                <ellipse fill-opacity="0.719999969" fill="#DFE3E7" cx="138.930559" cy="526.529641" rx="138.624324" ry="12.8232311"></ellipse>
+                <g>
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
