@@ -91,6 +91,7 @@
                     justify-content: center;
                     left: calc(95vw / 2);
                     position: absolute;
+                    align-items: center;
                     z-index: 9;
                 }
                 button.slick-next.slick-arrow{
@@ -101,6 +102,7 @@
                     justify-content: center;
                     right: calc(95vw / 2);
                     position: absolute;
+                    align-items: center;
                     z-index: 9;
                 }
                 
