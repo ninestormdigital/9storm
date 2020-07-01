@@ -22,13 +22,21 @@
 </head>
 
 <body>
+    <div class="mobile-only">
+        <img src="./src/images/landing-page/vector-logo.svg">
+        <a href="javascript:void(0);" class="btn-download" data-toggle="modal" data-target="#ExemploModalCentralizado">
+            DOWNLOAD GRÁTIS
+        </a>
+    </div>
     <header class="header">
         <div class="container">
             <div class="logo">
                 <img src="assets/images/9storm-b.svg">
             </div>
             <a href="javascript:void(0);" class="btn-download" data-toggle="modal"
-                data-target="#ExemploModalCentralizado">DOWNLOAD GRÁTIS</a>
+                data-target="#ExemploModalCentralizado">
+                DOWNLOAD GRÁTIS
+            </a>
         </div>
     </header>
     <section class="banner">
@@ -38,29 +46,29 @@
             <span class="message">Aumente seguidores, faça melhores postagens, construa uma audiência fiel, faça
                 conteúdo interessante e alavanque seus stories.</span>
             <a href="javascript:void(0);" class="btn-download" data-toggle="modal"
-                data-target="#ExemploModalCentralizado">faça o downloand</a>
+                data-target="#ExemploModalCentralizado">FAÇA DOWNLOAD</a>
         </div>
     </section>
 
     <section class="checklist">
         <div class="container">
-            <h2 class="title">Tudo que você precisa saber para criar stories criativas nas redes sociais</h2>
+            <h2 class="title">Tudo que você precisa saber para criar<br> stories criativas nas redes sociais</h2>
 
             <div class="itens">
                 <div class="col-md-3">
-                    <img src="assets/images/icon-checklist.svg" class="img-responsive">
+                    <img src="./src/images/landing-page/ghost.gif" class="img-responsive">
                     <p><i class="fas fa-check"></i> Truques de stories</p>
                 </div>
                 <div class="col-md-3">
-                    <img src="assets/images/icon-checklist.svg" class="img-responsive">
+                    <img src="./src/images/landing-page/lightning-bolt-weather.gif" class="img-responsive">
                     <p><i class="fas fa-check"></i> Novos filtros e fontes</p>
                 </div>
                 <div class="col-md-3">
-                    <img src="assets/images/icon-checklist.svg" class="img-responsive">
+                    <img src="./src/images/landing-page/angry-cat.gif" class="img-responsive">
                     <p><i class="fas fa-check"></i> Receba gifs inéditos</p>
                 </div>
                 <div class="col-md-3">
-                    <img src="assets/images/icon-checklist.svg" class="img-responsive">
+                    <img src="./src/images/landing-page/in-love.gif" class=" img-responsive">
                     <p><i class="fas fa-check"></i> Técnicas para stories mais interessantes</p>
                 </div>
             </div>
@@ -198,8 +206,10 @@
         integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-migrate-3.3.0.min.js"
         integrity="sha256-wZ3vNXakH9k4P00fNGAlbN0PkpKSyhRa76IFy4V1PYE=" crossorigin="anonymous"></script>
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.js"></script>
 
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.js"></script>
+        <script src="./src/js/animations.js"></script>
+  
 <script>
 var slide = 0;
 if(screen.width < 767){
@@ -218,6 +228,9 @@ if(screen.width < 767){
         slidesToScroll: 1,
     });
 </script>
+
+    
+
 </body>
 
 </html>

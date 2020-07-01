@@ -1,0 +1,31 @@
+.mobile-only {
+  display: none;
+
+  img{
+    height: 26px;
+  }
+
+  a{
+    color: $white;
+    text-decoration: underline;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  @media screen and (max-width: 760px){
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: top 0.3s;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    background: $black;
+  }
+}
