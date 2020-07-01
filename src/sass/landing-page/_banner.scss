@@ -1,6 +1,11 @@
 .banner{
     background-image: url("../../assets/images/landing-page/background-banner.jpg");
+    background-repeat: no-repeat;
     background-size: 100% auto;
+
+    @media screen and (max-width: 767px) {
+        background-size: auto 700px;
+    }
 
     .container{
         padding-top: 80px;
