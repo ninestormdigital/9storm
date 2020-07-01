@@ -1,10 +1,13 @@
 .banner{
-    background-color: $gray;
+    background-image: url('../../../src/images/landing-page/background-banner.jpg');
 
     .container{
         padding-top: 80px;
         padding-bottom: 80px;
-
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        color: $white;
         .call{
             font-family: 'Ubuntu', sans-serif;
             font-style: normal;
@@ -13,7 +16,6 @@
             line-height: 23px;
             display: flex;
             align-items: center;
-            color: $black;
 
             @media screen and (max-width: 767px) {
                 display: flex;
@@ -29,11 +31,11 @@
             line-height: 69px;
             display: flex;
             align-items: center;
-            color: $black;
             width: 742px;
             flex-wrap: wrap;
             margin-bottom: 80px;
-
+            text-align: center;
+            
             @media screen and (max-width: 767px) {
                 width: 100%;
                 font-size: 55px;
@@ -48,9 +50,9 @@
             font-weight: normal;
             font-size: 16px;
             line-height: 22px;
+            text-align: center;
             display: flex;
             align-items: center;
-            color: $black;
             width: 485px;
             flex-wrap: wrap;
             margin-bottom: 20px;
@@ -67,12 +69,16 @@
             display: flex;
             justify-content: center;
             align-items: center;
-
+            font-family: Nunito;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 15px;
+            line-height: 20px;
             @media screen and (max-width: 767px) {
                 margin: 0 auto;
             }
             
-            @include btn-download($black, $white);
+            @include btn-download($white, $black);
         }
         
     }

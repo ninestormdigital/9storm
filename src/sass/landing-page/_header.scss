@@ -6,6 +6,7 @@
         justify-content: space-between;
         padding-top: 15px;
         padding-bottom: 15px;
+        align-items: center;
 
         @media screen and (max-width: 767px) {
             display: flex;
@@ -13,7 +14,7 @@
         }
 
         .logo{
-            width: 150px;
+            width: 112px;
             display: flex;
             align-items: center;
 
@@ -23,8 +24,21 @@
         }
 
         .btn-download{
-            @include btn-download($black, $white);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 40px;
+            width: 220px;
+            background: $black;
+            color: $white;
+            border-radius: 8px;
 
+        &:hover{
+            background: $yellow;
+            color: $black;
+            font-weight: bold;
+            text-decoration: none;
+        }
             @media screen and (max-width: 767px) {
                 display: none;
             }

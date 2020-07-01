@@ -2,24 +2,14 @@
     .container{
         padding-top: 80px;
         padding-bottom: 80px;
-
         .title{
-            font-family: 'Ubuntu', sans-serif;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 32px;
-            line-height: 37px;
-            display: flex;
-            align-items: center;
-            text-align: center;
-            color: $black;
-            flex: none;
-            order: 0;
-            align-self: center;
-            margin: 10px auto 57px;
-            width: 485px;
-            flex-wrap: wrap;
-
+           text-align: center;
+           font-family: Ubuntu;
+           font-style: normal;
+           font-weight: bold;
+           font-size: 32px;
+           line-height: 37px;
+           margin-bottom: 47px;
 
             @media screen and (max-width: 767px) {
                 width: 100%;
@@ -37,6 +27,7 @@
                 flex-direction: column;
 
                 p{
+                    margin-top: 20px;
                     i{
                         display: none;
                     }
