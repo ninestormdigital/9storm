@@ -1,5 +1,5 @@
 .footer{
-    background-color: $black;
+    background-color: $yellow;
 
     .container{
         padding-top: 80px;
@@ -11,7 +11,11 @@
 
         .title{
             margin-bottom: 40px;
-            color: $white;
+            font-family: Ubuntu;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 32px;
+            line-height: 37px;
         }
 
         .btn-download{
@@ -26,11 +30,11 @@
             font-size: 16px;
             line-height: 19px;
             
-            @include btn-download($white, $black);
+            @include btn-download($black, $white);
         }
     }
     .last-container{
-        border-top: 2px solid white;
+        background: $black;
         height: 148px;
         display: flex;
         align-items: center;
