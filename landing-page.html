@@ -13,9 +13,11 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <link rel="stylesheet" type="text/css"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
-    <!-- <link rel="stylesheet" type="text/css" href="assets/css/bootstrap/dist/css/bootstrap.min.css"> -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.css">
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick-theme.css">
     <link rel='stylesheet' type='text/css' media='screen' href='assets/css/landing-page.css'>
 </head>
 
@@ -62,6 +64,80 @@
                     <p><i class="fas fa-check"></i> Técnicas para stories mais interessantes</p>
                 </div>
             </div>
+        </div>
+        <div id="carousel-container">
+            <div class="carousel-wrapper">
+                <div class="carousel">
+                    <div>
+                        <img src="assets/images/carousel/insta-1.png" class="img-responsive" alt="insta">
+                    </div>
+            
+                    <div>
+                        <img src="assets/images/carousel/insta-2.png" class="img-responsive" alt="insta">
+                    </div>
+            
+                    <div>
+                        <img src="assets/images/carousel/insta-3.png" class="img-responsive" alt="insta">
+                    </div>
+            
+                    <div>
+                        <img src="assets/images/carousel/insta-4.png" class="img-responsive" alt="insta">
+                    </div>
+            
+                    <div>
+                        <img src="assets/images/carousel/insta-5.png" class="img-responsive" alt="insta">
+                    </div>
+            
+                    <div>
+                        <img src="assets/images/carousel/insta-6.png" class="img-responsive" alt="insta">
+                    </div>
+            
+                    <div>
+                        <img src="assets/images/carousel/insta-7.png" class="img-responsive" alt="insta">
+                    </div>
+                    
+                    <div>
+                        <img src="assets/images/carousel/insta-4.png" class="img-responsive" alt="insta">
+                    </div>
+            
+                    <div>
+                        <img src="assets/images/carousel/insta-5.png" class="img-responsive" alt="insta">
+                    </div>
+            
+                    <div>
+                        <img src="assets/images/carousel/insta-6.png" class="img-responsive" alt="insta">
+                    </div>
+            
+                    <div>
+                        <img src="assets/images/carousel/insta-7.png" class="img-responsive" alt="insta">
+                    </div>
+                    <div>
+                        <img src="assets/images/carousel/insta-1.png" class="img-responsive" alt="insta">
+                    </div>
+            
+                    <div>
+                        <img src="assets/images/carousel/insta-2.png" class="img-responsive" alt="insta">
+                    </div>
+            
+                    <div>
+                        <img src="assets/images/carousel/insta-3.png" class="img-responsive" alt="insta">
+                    </div>
+            
+                    <div>
+                        <img src="assets/images/carousel/insta-4.png" class="img-responsive" alt="insta">
+                    </div>
+            
+                    <div>
+                        <img src="assets/images/carousel/insta-5.png" class="img-responsive" alt="insta">
+                    </div>
+            
+                    <div>
+                        <img src="assets/images/carousel/insta-6.png" class="img-responsive" alt="insta">
+                    </div>              
+                </div>
+            </div>
+            
+            <div class="carousel-phone"></div>
         </div>
     </section>
 
@@ -115,7 +191,6 @@
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <!-- <script src="assets/css/bootstrap/dist/js/bootstrap.min.js"></script> -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
@@ -123,6 +198,26 @@
         integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-migrate-3.3.0.min.js"
         integrity="sha256-wZ3vNXakH9k4P00fNGAlbN0PkpKSyhRa76IFy4V1PYE=" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.js"></script>
+
+<script>
+var slide = 0;
+if(screen.width < 767){
+    slide = 1;
+} else if (screen.width >= 768){
+    slide = 7;
+}
+
+    $('.carousel').slick({
+        dots: false,
+        infinite: true,
+        speed: 500,
+        slidesToShow:slide,
+        arrows: true,
+        nav:true,
+        slidesToScroll: 1,
+    });
+</script>
 </body>
 
 </html>
