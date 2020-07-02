@@ -43,6 +43,12 @@
     height: 400px;
     display: flex;
     flex-direction: column;
+    
+    @media screen and (max-width: 780px){
+      flex-direction: column;
+      width: auto;
+      height: auto;
+    }
 
     .download-ebooks{
       margin: 0 auto;
@@ -80,6 +86,7 @@
               height: 66px;  
               line-height: 18px; 
               font-weight: normal;
+              text-align: center;
           }
           strong{
               font-family: Ubuntu;
@@ -88,6 +95,14 @@
               font-size: 16px;
               text-align: center;
           }
+      }
+      @media screen and (max-width: 780px){
+        flex-direction: column;
+        width: auto;
+        height: auto;
+        .card{
+            margin-bottom: 40px;
+        }
       }
     }
 

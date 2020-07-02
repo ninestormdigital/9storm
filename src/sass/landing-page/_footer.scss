@@ -56,12 +56,15 @@
         }
 
         .social-media{
+            display: flex;
+            align-items: center;
             .social-link{
                 margin: 0 20px;
             }
         }
 
         .social-link{
+            display: flex;
             font-family: Nunito;
             font-style: normal;
             font-weight: normal;
@@ -84,6 +87,17 @@
             flex-direction: column;
             height: 220px;
             justify-content: space-evenly;
+        }
+
+        .social-media{
+            flex-direction: column;
+        }
+        .social-link{
+            height: 50px;
+            align-items: center;
+            img{
+                margin-right: 10px;
+            }
         }
     }
 }
