@@ -1,927 +1,186 @@
 <!DOCTYPE html>
-<html lang="en">
-  <script src="https://www.googleoptimize.com/optimize.js?id=GTM-TWNZGZZ"></script>
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;500;700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.css">
+      <!-- Anti-flicker snippet (recommended)  -->
+<style>.async-hide { opacity: 0 !important} </style>
+<script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+})(window,document.documentElement,'async-hide','dataLayer',4000,
+{'GTM-TWNZGZZ':true});</script>
+
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>e-book 9storm</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.css">
   <link rel="stylesheet" type="text/css"
     href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick-theme.css">
-  <link rel="stylesheet" type="text/css"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
-  <!-- <link rel="stylesheet" type="text/css" href="assets/css/bootstrap/dist/css/bootstrap.min.css"> -->
-  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-  <title>Gama XP 34P</title>
-
-  <style>
-    @charset "UTF-8";
-.arrow-slick {
-  position: absolute;
-  top: 465px;
-  z-index: 9;
-  width: 60px;
-  height: 50px;
-  color: #202046; }
-  @media screen and (max-width: 768px) {
-    .arrow-slick {
-      top: 300px; } }
-  @media screen and (min-width: 769px) and (max-width: 1024px) {
-    .arrow-slick {
-      top: 595px; } }
-
-.middle-height, .container .slick-slider, .container .carousel .message, .container .carousel .user {
-  display: flex;
-  align-items: center; }
-
-.header {
-  display: flex;
-  justify-content: center; }
-  .header .container {
-    position: absolute;
-    z-index: 1;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100px;
-    padding: 50px 0; }
-    .header .container .logo {
-      width: 200px;
-      opacity: 1; }
-      .header .container .logo img {
-        width: 100%; }
-    .header .container .navigation ul {
-      margin: 0;
-      padding: 0;
-      list-style: none;
-      display: flex;
-      justify-content: flex-end; }
-      .header .container .navigation ul a {
-        padding: 10px 30px;
-        font-family: 'Raleway', sans-serif !important;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 12px;
-        line-height: 14px;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        text-transform: uppercase;
-        color: #fff;
-        margin-top: 4px;
-        border-bottom: 3px solid transparent; }
-        .header .container .navigation ul a:hover {
-          text-decoration: none; }
-          .header .container .navigation ul a:hover li {
-            font-weight: 700;
-            margin-top: 4px;
-            border-bottom: 3px solid #fff; }
-
-.team {
-  background-color: #F5F4F1;
-  width: 100%; }
-  .team .title {
-    font-family: 'Inter', sans-serif !important;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 32px;
-    line-height: 39px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: #3A41A9; }
-
-.container {
-  display: block;
-  padding: 120px 0; }
-  .container .slick-slide.slick-current.slick-active, .container .slick-slide {
-    outline: none;
-    min-height: 550px; }
-  .container .slick-slider {
-    width: 100%; }
-    .container .slick-slider .slick-prev::before, .container .slick-slider .slick-next::before {
-      color: #202046; }
-  .container .carousel .slick-list {
-    position: relative; }
-  .container .carousel .message {
-    width: 650px;
-    z-index: 1001;
-    position: absolute;
-    font-size: 32px;
-    font-family: 'Inter', sans-serif;
-    font-weight: 300;
-    color: #202046;
-    margin-left: 20px;
-    height: 100%; }
-    .container .carousel .message p {
-      margin-bottom: 0; }
-    .container .carousel .message .name {
-      font-family: 'Raleway', sans-serif !important;
-      font-style: normal;
-      font-weight: bold;
-      font-size: 22px;
-      line-height: 22px;
-      display: flex;
-      align-items: center;
-      letter-spacing: 0.02em;
-      color: #3A41A9;
-      margin-bottom: 5px; }
-    .container .carousel .message .infos {
-      font-family: 'Raleway', sans-serif !important;
-      font-style: normal;
-      font-weight: bold;
-      font-size: 18px;
-      line-height: 18px;
-      display: flex;
-      align-items: center;
-      letter-spacing: 0.02em;
-      color: #3A41A9;
-      margin-bottom: 20px; }
-    .container .carousel .message .info-user {
-      width: 650px;
-      flex-wrap: wrap;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 16px;
-      line-height: 22px;
-      display: flex;
-      align-items: center;
-      letter-spacing: 0.02em;
-      color: #3A41A9;
-      margin-bottom: 40px; }
-      .container .carousel .message .info-user p {
-        margin-bottom: 5px; }
-        .container .carousel .message .info-user p span {
-          font-weight: bold;
-          margin-right: 5px; }
-    .container .carousel .message .phrase {
-      font-family: 'Raleway', sans-serif !important;
-      width: 650px;
-      flex-wrap: wrap;
-      font-style: normal;
-      font-weight: bold;
-      font-size: 16px;
-      line-height: 22px;
-      display: flex;
-      align-items: center;
-      letter-spacing: 0.02em;
-      color: #3A41A9; }
-      .container .carousel .message .phrase i {
-        margin-left: 7px;
-        font-weight: 400;
-        font-size: 13px; }
-  .container .carousel .user {
-    justify-content: center;
-    position: relative;
-    left: 300px;
-    min-height: 550px; }
-    @media screen and (max-width: 1024px) {
-      .container .carousel .user {
-        left: 190px; } }
-    .container .carousel .user .photograph {
-      position: absolute;
-      z-index: 1;
-      max-width: 418px;
-      margin: 0 auto;
-      border-radius: 5px; }
-    .container .carousel .user .background {
-      position: relative;
-      max-width: 550px; }
-
-@media screen and (max-width: 768px) {
-  .container .carousel .slick-prev {
-    left: -17px; }
-  .container .carousel .slick-next {
-    right: -17px; }
-  .container .carousel .slick-list .slick-slide {
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: center; }
-  .container .carousel .message {
-    width: 100%;
-    position: initial;
-    margin: 0;
-    text-align: center;
-    margin-top: 80px; }
-    .container .carousel .message .quotes {
-      position: absolute;
-      z-index: -1;
-      margin-left: 100px;
-      top: 360px; }
-  .container .carousel .user {
-    width: 100%;
-    position: sticky; }
-    .container .carousel .user .photograph {
-      position: absolute;
-      z-index: 1;
-      max-width: 80%;
-      margin: 0 auto;
-      border-radius: 5px; }
-    .container .carousel .user .background {
-      position: relative;
-      max-width: 100%; }
-  .container .curve {
-    max-width: 100%; } }
-
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-  .container .carousel .message .quotes {
-    position: absolute;
-    z-index: -1;
-    margin-left: 100px;
-    top: 680px; }
-  .container .curve {
-    max-width: 100%; } }
-
-.full-banner {
-  position: relative;
-  background: url("../../assets/images/fullbanner.png") no-repeat;
-  background-size: 100%;
-  height: 500px;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-  .full-banner .message {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    flex-direction: column; }
-    .full-banner .message img {
-      width: 450px;
-      margin: 0 auto; }
-    .full-banner .message h2 {
-      font-family: 'Raleway', sans-serif !important;
-      font-style: normal;
-      font-weight: bold;
-      font-size: 30px;
-      line-height: 35px;
-      display: flex;
-      align-items: center;
-      text-align: center;
-      text-transform: uppercase;
-      color: #fff; }
-
-.who-are {
-  background-color: #F5F4F1; }
-  .who-are .container {
-    padding: 120px 0;
-    display: flex;
-    justify-content: space-between; }
-    .who-are .container .content {
-      width: calc(100vw - 50%); }
-      .who-are .container .content .who-are-title {
-        font-family: 'Inter', sans-serif !important;
-        align-self: flex-start;
-        font-size: 25pt;
-        font-weight: bolder;
-        color: #3A41A9;
-        margin-bottom: 40px; }
-      .who-are .container .content .who-are-text {
-        color: #000;
-        font-family: 'Raleway', sans-serif !important;
-        margin-bottom: 19px; }
-      .who-are .container .content .who-are-subtitle {
-        font-size: 18pt;
-        font-weight: bold;
-        color: #3A41A9;
-        margin-bottom: 75px;
-        font-family: 'Raleway', sans-serif !important;
-        margin-bottom: 97px; }
-      .who-are .container .content .who-are-btn {
-        height: 44px;
-        width: 280px;
-        padding: 5px;
-        color: #fff;
-        border: none;
-        background: #3A41A9;
-        font-family: 'Raleway', sans-serif !important; }
-    .who-are .container .stack-folders {
-      width: calc(100vw - 50%);
-      display: flex;
-      flex-wrap: wrap; }
-      .who-are .container .stack-folders .folder {
-        display: flex;
-        position: relative;
-        margin-left: 30px;
-        margin-bottom: 30px; }
-      .who-are .container .stack-folders .hustler-team {
-        opacity: 0.0;
-        position: absolute;
-        transition: 1s; }
-      .who-are .container .stack-folders .hyper-team {
-        opacity: 0;
-        position: absolute; }
-      .who-are .container .stack-folders .hacker-team {
-        opacity: 0;
-        position: absolute; }
-      .who-are .container .stack-folders .hipster-team {
-        opacity: 0;
-        position: absolute; }
-
-.hustler-team:hover {
-  animation-name: fadeOnHover;
-  animation-duration: 1s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards; }
-
-.hyper-team:hover {
-  animation-name: fadeOnHover;
-  animation-duration: 1s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards; }
-
-.hacker-team:hover {
-  animation-name: fadeOnHover;
-  animation-duration: 1s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards; }
-
-.hipster-team:hover {
-  animation-name: fadeOnHover;
-  animation-duration: 1s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards; }
-
-@keyframes fadeOnHover {
-  0% {
-    opacity: 0;
-    margin-left: -10px;
-    margin-top: -10px; }
-  100% {
-    opacity: 1;
-    margin-left: -30px;
-    margin-top: -40px; } }
-
-.mission {
-  background-color: #3A41A9;
-  width: 100%;
-  font-family: 'Raleway', sans-serif !important; }
-  .mission .container {
-    padding: 120px 0;
-    display: flex; }
-    .mission .container div {
-      width: calc(100vw / 4);
-      padding: 10px; }
-      .mission .container div p {
-        font-family: Raleway;
-        font-style: normal;
-        font-weight: 800;
-        font-size: 16px;
-        line-height: 19px;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        text-transform: uppercase;
-        color: #fff; }
-    .mission .container .title {
-      font-family: 'Raleway', sans-serif !important;
-      font-style: normal;
-      font-weight: 800;
-      font-size: 32px;
-      line-height: 38px;
-      flex-wrap: wrap;
-      color: #fff; }
-    .mission .container .Comprometimento, .mission .container .Clareza, .mission .container .Força {
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
-      padding: 0 40px; }
-      .mission .container .Comprometimento p, .mission .container .Clareza p, .mission .container .Força p {
-        display: flex;
-        justify-content: center;
-        text-align: center; }
-      .mission .container .Comprometimento span, .mission .container .Clareza span, .mission .container .Força span {
-        font-family: Raleway;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 16px;
-        line-height: 24px;
-        text-align: center;
-        color: #fff;
-        opacity: 0.6; }
-
-.online-meeting {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-  background: #f2efe6;
-  padding: 120px 0; }
-  .online-meeting h3 {
-    font-family: 'Inter', sans-serif !important;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 32px;
-    line-height: 39px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #3A41A9;
-    margin-bottom: 40px; }
-  .online-meeting img {
-    width: 706px;
-    height: 389px;
-    margin-bottom: 83px; }
-  .online-meeting .online-meeting-text {
-    display: flex;
-    width: 80%;
-    justify-content: center;
-    margin-bottom: 80px;
-    font-family: 'Raleway', sans-serif !important;
-    font-style: normal;
-    font-weight: normal;
-    letter-spacing: 0.02em;
-    color: #3A41A9;
-    padding: 0 80px; }
-    .online-meeting .online-meeting-text p {
-      text-align: left;
-      width: 500px;
-      flex-wrap: wrap;
-      padding: 0 30px;
-      font-size: 16px;
-      line-height: 22px; }
-  .online-meeting h4 {
-    font-weight: bold;
-    color: #3A41A9;
-    font-family: 'Raleway', sans-serif !important;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 22px;
-    line-height: 22px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: uppercase; }
-
-.footer {
-  width: 100%;
-  background-color: #223169;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 60px 45px; }
-  .footer .logo {
-    width: 300px;
-    display: flex;
-    flex-direction: column;
-    align-items: center; }
-    .footer .logo img {
-      width: 100%;
-      margin-bottom: 20px; }
-    .footer .logo p {
-      color: #fff;
-      font-family: 'Raleway', sans-serif !important; }
-
-body {
-  margin: 0;
-  font-family: Raleway;
-  overflow-x: hidden; }
-
-/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibWFpbi5jc3MiLCJzb3VyY2VzIjpbIm1haW4uc2NzcyIsIl92YXJpYWJsZXMuc2NzcyIsIl9taXhpbi5zY3NzIiwiX2hlYWRlci5zY3NzIiwiX3RlYW0uc2NzcyIsIl9jYXJvdXNlbC5zY3NzIiwiX2Z1bGwtYmFubmVyLnNjc3MiLCJfd2hvLWFyZS5zY3NzIiwiX21pc3Npb24uc2NzcyIsIl9vbmxpbmUtbWVldGluZy5zY3NzIiwiX2Zvb3Rlci5zY3NzIl0sInNvdXJjZXNDb250ZW50IjpbIkBpbXBvcnQgJ3ZhcmlhYmxlcyc7XHJcbkBpbXBvcnQgJ21peGluJztcclxuQGltcG9ydCAnaGVhZGVyJztcclxuQGltcG9ydCAndGVhbSc7XHJcbkBpbXBvcnQgJ2Nhcm91c2VsJztcclxuQGltcG9ydCAnZnVsbC1iYW5uZXInO1xyXG5AaW1wb3J0ICd3aG8tYXJlJztcclxuQGltcG9ydCAnbWlzc2lvbic7XHJcbkBpbXBvcnQgJ29ubGluZS1tZWV0aW5nJztcclxuQGltcG9ydCAnZm9vdGVyJztcclxuXHJcblxyXG5ib2R5e1xyXG4gICAgbWFyZ2luOiAwO1xyXG4gICAgZm9udC1mYW1pbHk6IFJhbGV3YXk7XHJcbiAgICBvdmVyZmxvdy14OiBoaWRkZW47XHJcbn0iLCJcclxuJGxpZ2h0LWdyYXk6ICNGMkVGRTY7XHJcbiRncmF5OiAjRjVGNEYxO1xyXG4kZGFyazogIzQ2NDY0NjtcclxuJGJsYWNrOiAjMDAwO1xyXG4kd2hpdGU6ICNmZmY7XHJcbiRsaWdodC1iZWlnZTogI2Y1ZjRmMTtcclxuJGJlaWdlOiAjZjJlZmU2O1xyXG4kYmx1ZS1yZWZlcmVuY2UtZGV2OiAjM2U1MmEzO1xyXG4kYmx1ZS1hcnJvdy1zbGljazogIzIwMjA0NjtcclxuJGJsdWUtY29tcGFueTogIzNBNDFBOTtcclxuJGJsdWUtZm9vdGVyOiAjMjIzMTY5OyIsIi5hcnJvdy1zbGlja3tcclxuICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTsgXHJcbiAgICB0b3A6IDQ2NXB4OyBcclxuICAgIHotaW5kZXg6IDk7IFxyXG4gICAgd2lkdGg6IDYwcHg7IFxyXG4gICAgaGVpZ2h0OiA1MHB4OyBcclxuICAgIGNvbG9yOiAkYmx1ZS1hcnJvdy1zbGljaztcclxuXHJcbiAgICBAbWVkaWEgc2NyZWVuIGFuZCAobWF4LXdpZHRoOiA3NjhweCl7XHJcbiAgICAgICAgdG9wOiAzMDBweDsgXHJcbiAgICB9XHJcblxyXG4gICAgQG1lZGlhIHNjcmVlbiBhbmQgKG1pbi13aWR0aDo3NjlweCkgYW5kIChtYXgtd2lkdGg6IDEwMjRweCl7XHJcbiAgICAgICAgdG9wOiA1OTVweDsgXHJcbiAgICB9XHJcbn1cclxuXHJcbi5taWRkbGUtaGVpZ2h0e1xyXG4gICAgZGlzcGxheTogZmxleDtcclxuICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XHJcbn0iLCIuaGVhZGVye1xyXG4gICAgZGlzcGxheTogZmxleDtcclxuICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xyXG4gICAgXHJcbiAgICAuY29udGFpbmVye1xyXG4gICAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICAgICAgICB6LWluZGV4OiAxO1xyXG4gICAgICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICAgICAganVzdGlmeS1jb250ZW50OiBzcGFjZS1iZXR3ZWVuO1xyXG4gICAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XHJcbiAgICAgICAgaGVpZ2h0OjEwMHB4O1xyXG4gICAgICAgIHBhZGRpbmc6IDUwcHggMDtcclxuXHJcbiAgICAgICAgLmxvZ297XHJcbiAgICAgICAgICAgIHdpZHRoOiAyMDBweDtcclxuICAgICAgICAgICAgb3BhY2l0eTogMTtcclxuXHJcbiAgICAgICAgICAgIGltZ3tcclxuICAgICAgICAgICAgICAgIHdpZHRoOiAxMDAlO1xyXG4gICAgICAgICAgICB9XHJcbiAgICAgICAgfVxyXG5cclxuICAgICAgICAubmF2aWdhdGlvbntcclxuICAgICAgICAgICAgdWx7XHJcbiAgICAgICAgICAgICAgICBtYXJnaW46IDA7XHJcbiAgICAgICAgICAgICAgICBwYWRkaW5nOiAwO1xyXG4gICAgICAgICAgICAgICAgbGlzdC1zdHlsZTogbm9uZTtcclxuICAgICAgICAgICAgICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICAgICAgICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IGZsZXgtZW5kO1xyXG5cclxuICAgICAgICAgICAgICAgIGF7XHJcbiAgICAgICAgICAgICAgICAgICAgcGFkZGluZzogMTBweCAzMHB4O1xyXG4gICAgICAgICAgICAgICAgICAgIGZvbnQtZmFtaWx5OiAnUmFsZXdheScsIHNhbnMtc2VyaWYgIWltcG9ydGFudDtcclxuICAgICAgICAgICAgICAgICAgICBmb250LXN0eWxlOiBub3JtYWw7XHJcbiAgICAgICAgICAgICAgICAgICAgZm9udC13ZWlnaHQ6IDUwMDtcclxuICAgICAgICAgICAgICAgICAgICBmb250LXNpemU6IDEycHg7XHJcbiAgICAgICAgICAgICAgICAgICAgbGluZS1oZWlnaHQ6IDE0cHg7XHJcbiAgICAgICAgICAgICAgICAgICAgZGlzcGxheTogZmxleDtcclxuICAgICAgICAgICAgICAgICAgICBhbGlnbi1pdGVtczogY2VudGVyO1xyXG4gICAgICAgICAgICAgICAgICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICAgICAgICAgICAgICAgICAgICB0ZXh0LXRyYW5zZm9ybTogdXBwZXJjYXNlO1xyXG4gICAgICAgICAgICAgICAgICAgIGNvbG9yOiAkd2hpdGU7XHJcbiAgICAgICAgICAgICAgICAgICAgbWFyZ2luLXRvcDogNHB4O1xyXG4gICAgICAgICAgICAgICAgICAgIGJvcmRlci1ib3R0b206IDNweCBzb2xpZCB0cmFuc3BhcmVudDtcclxuXHJcbiAgICAgICAgICAgICAgICAgICAgJjpob3ZlcntcclxuICAgICAgICAgICAgICAgICAgICAgICAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xyXG5cclxuICAgICAgICAgICAgICAgICAgICAgICAgbGl7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBmb250LXdlaWdodDogNzAwO1xyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgbWFyZ2luLXRvcDogNHB4O1xyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgYm9yZGVyLWJvdHRvbTogM3B4IHNvbGlkICR3aGl0ZTtcclxuICAgICAgICAgICAgICAgICAgICAgICAgfVxyXG4gICAgICAgICAgICAgICAgICAgICAgICBcclxuICAgICAgICAgICAgICAgICAgICB9XHJcbiAgICAgICAgICAgICAgICB9XHJcbiAgICAgICAgICAgIH1cclxuICAgICAgICB9XHJcbiAgICB9XHJcbn1cclxuIiwiLnRlYW17XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAkZ3JheTtcclxuICAgIHdpZHRoOiAxMDAlO1xyXG5cclxuICAgIC50aXRsZXtcclxuICAgICAgICBmb250LWZhbWlseTogJ0ludGVyJywgc2Fucy1zZXJpZiAhaW1wb3J0YW50O1xyXG4gICAgICAgIGZvbnQtc3R5bGU6IG5vcm1hbDtcclxuICAgICAgICBmb250LXdlaWdodDogYm9sZDtcclxuICAgICAgICBmb250LXNpemU6IDMycHg7XHJcbiAgICAgICAgbGluZS1oZWlnaHQ6IDM5cHg7XHJcbiAgICAgICAgZGlzcGxheTogZmxleDtcclxuICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcclxuICAgICAgICBhbGlnbi1pdGVtczogY2VudGVyO1xyXG4gICAgICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICAgICAgICBjb2xvcjogJGJsdWUtY29tcGFueTtcclxuICAgIH1cclxuXHJcbn0iLCIuY29udGFpbmVyIHtcclxuICAgIGRpc3BsYXk6IGJsb2NrO1xyXG4gICAgcGFkZGluZzogMTIwcHggMDtcclxuXHJcbiAgICAuc2xpY2stc2xpZGUuc2xpY2stY3VycmVudC5zbGljay1hY3RpdmUsIC5zbGljay1zbGlkZSB7XHJcbiAgICAgICAgb3V0bGluZTogbm9uZTtcclxuICAgICAgICBtaW4taGVpZ2h0OiA1NTBweDtcclxuICAgIH1cclxuXHJcbiAgICAuc2xpY2stc2xpZGVyIHtcclxuICAgICAgICB3aWR0aDogMTAwJTsgXHJcbiAgICAgICAgQGV4dGVuZCAubWlkZGxlLWhlaWdodDtcclxuXHJcbiAgICAgICAgLnNsaWNrLXByZXY6OmJlZm9yZSwgLnNsaWNrLW5leHQ6OmJlZm9yZXtcclxuICAgICAgICAgICAgY29sb3I6ICRibHVlLWFycm93LXNsaWNrO1xyXG4gICAgICAgIH1cclxuICAgIH1cclxuXHJcbiAgICAuY2Fyb3VzZWx7XHJcbiAgICAgICAgLnNsaWNrLWxpc3R7XHJcbiAgICAgICAgICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcclxuICAgICAgICB9XHJcblxyXG4gICAgICAgIC5tZXNzYWdle1xyXG4gICAgICAgICAgICBAZXh0ZW5kIC5taWRkbGUtaGVpZ2h0O1xyXG4gICAgICAgICAgICB3aWR0aDogNjUwcHg7IFxyXG4gICAgICAgICAgICB6LWluZGV4OiAxMDAxO1xyXG4gICAgICAgICAgICBwb3NpdGlvbjogYWJzb2x1dGU7IFxyXG4gICAgICAgICAgICBmb250LXNpemU6IDMycHg7IFxyXG4gICAgICAgICAgICBmb250LWZhbWlseTogJ0ludGVyJywgc2Fucy1zZXJpZjsgXHJcbiAgICAgICAgICAgIGZvbnQtd2VpZ2h0OiAzMDA7IFxyXG4gICAgICAgICAgICBjb2xvcjogJGJsdWUtYXJyb3ctc2xpY2s7IFxyXG4gICAgICAgICAgICBtYXJnaW4tbGVmdDogMjBweDtcclxuICAgICAgICAgICAgaGVpZ2h0OiAxMDAlO1xyXG5cclxuICAgICAgICAgICAgcHtcclxuICAgICAgICAgICAgICAgIG1hcmdpbi1ib3R0b206IDA7XHJcbiAgICAgICAgICAgIH1cclxuXHJcbiAgICAgICAgICAgIC5uYW1le1xyXG4gICAgICAgICAgICAgICAgZm9udC1mYW1pbHk6ICdSYWxld2F5Jywgc2Fucy1zZXJpZiAhaW1wb3J0YW50O1xyXG4gICAgICAgICAgICAgICAgZm9udC1zdHlsZTogbm9ybWFsO1xyXG4gICAgICAgICAgICAgICAgZm9udC13ZWlnaHQ6IGJvbGQ7XHJcbiAgICAgICAgICAgICAgICBmb250LXNpemU6IDIycHg7XHJcbiAgICAgICAgICAgICAgICBsaW5lLWhlaWdodDogMjJweDtcclxuICAgICAgICAgICAgICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICAgICAgICAgICAgICBhbGlnbi1pdGVtczogY2VudGVyO1xyXG4gICAgICAgICAgICAgICAgbGV0dGVyLXNwYWNpbmc6IDAuMDJlbTtcclxuICAgICAgICAgICAgICAgIGNvbG9yOiAkYmx1ZS1jb21wYW55O1xyXG4gICAgICAgICAgICAgICAgbWFyZ2luLWJvdHRvbTogNXB4O1xyXG4gICAgICAgICAgICB9XHJcblxyXG4gICAgICAgICAgICAuaW5mb3N7XHJcbiAgICAgICAgICAgICAgICBmb250LWZhbWlseTogJ1JhbGV3YXknLCBzYW5zLXNlcmlmICFpbXBvcnRhbnQ7XHJcbiAgICAgICAgICAgICAgICBmb250LXN0eWxlOiBub3JtYWw7XHJcbiAgICAgICAgICAgICAgICBmb250LXdlaWdodDogYm9sZDtcclxuICAgICAgICAgICAgICAgIGZvbnQtc2l6ZTogMThweDtcclxuICAgICAgICAgICAgICAgIGxpbmUtaGVpZ2h0OiAxOHB4O1xyXG4gICAgICAgICAgICAgICAgZGlzcGxheTogZmxleDtcclxuICAgICAgICAgICAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XHJcbiAgICAgICAgICAgICAgICBsZXR0ZXItc3BhY2luZzogMC4wMmVtO1xyXG4gICAgICAgICAgICAgICAgY29sb3I6ICRibHVlLWNvbXBhbnk7XHJcbiAgICAgICAgICAgICAgICBtYXJnaW4tYm90dG9tOiAyMHB4O1xyXG4gICAgICAgICAgICB9XHJcblxyXG4gICAgICAgICAgICAuaW5mby11c2Vye1xyXG4gICAgICAgICAgICAgICAgd2lkdGg6IDY1MHB4O1xyXG4gICAgICAgICAgICAgICAgZmxleC13cmFwOiB3cmFwO1xyXG4gICAgICAgICAgICAgICAgZm9udC1zdHlsZTogbm9ybWFsO1xyXG4gICAgICAgICAgICAgICAgZm9udC13ZWlnaHQ6IG5vcm1hbDtcclxuICAgICAgICAgICAgICAgIGZvbnQtc2l6ZTogMTZweDtcclxuICAgICAgICAgICAgICAgIGxpbmUtaGVpZ2h0OiAyMnB4O1xyXG4gICAgICAgICAgICAgICAgZGlzcGxheTogZmxleDtcclxuICAgICAgICAgICAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XHJcbiAgICAgICAgICAgICAgICBsZXR0ZXItc3BhY2luZzogMC4wMmVtO1xyXG4gICAgICAgICAgICAgICAgY29sb3I6ICRibHVlLWNvbXBhbnk7XHJcbiAgICAgICAgICAgICAgICBtYXJnaW4tYm90dG9tOiA0MHB4O1xyXG5cclxuICAgICAgICAgICAgICAgIHB7XHJcbiAgICAgICAgICAgICAgICAgICAgbWFyZ2luLWJvdHRvbTogNXB4O1xyXG5cclxuICAgICAgICAgICAgICAgICAgICBzcGFue1xyXG4gICAgICAgICAgICAgICAgICAgICAgICBmb250LXdlaWdodDogYm9sZDtcclxuICAgICAgICAgICAgICAgICAgICAgICAgbWFyZ2luLXJpZ2h0OiA1cHg7XHJcbiAgICAgICAgICAgICAgICAgICAgfVxyXG4gICAgICAgICAgICAgICAgfVxyXG4gICAgICAgICAgICB9XHJcblxyXG4gICAgICAgICAgICAucGhyYXNle1xyXG4gICAgICAgICAgICAgICAgZm9udC1mYW1pbHk6ICdSYWxld2F5Jywgc2Fucy1zZXJpZiAhaW1wb3J0YW50O1xyXG4gICAgICAgICAgICAgICAgd2lkdGg6IDY1MHB4O1xyXG4gICAgICAgICAgICAgICAgZmxleC13cmFwOiB3cmFwO1xyXG4gICAgICAgICAgICAgICAgZm9udC1zdHlsZTogbm9ybWFsO1xyXG4gICAgICAgICAgICAgICAgZm9udC13ZWlnaHQ6IGJvbGQ7XHJcbiAgICAgICAgICAgICAgICBmb250LXNpemU6IDE2cHg7XHJcbiAgICAgICAgICAgICAgICBsaW5lLWhlaWdodDogMjJweDtcclxuICAgICAgICAgICAgICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICAgICAgICAgICAgICBhbGlnbi1pdGVtczogY2VudGVyO1xyXG4gICAgICAgICAgICAgICAgbGV0dGVyLXNwYWNpbmc6IDAuMDJlbTtcclxuICAgICAgICAgICAgICAgIGNvbG9yOiAkYmx1ZS1jb21wYW55O1xyXG5cclxuICAgICAgICAgICAgICAgIGl7XHJcbiAgICAgICAgICAgICAgICAgICAgbWFyZ2luLWxlZnQ6IDdweDtcclxuICAgICAgICAgICAgICAgICAgICBmb250LXdlaWdodDogNDAwO1xyXG4gICAgICAgICAgICAgICAgICAgIGZvbnQtc2l6ZTogMTNweDtcclxuICAgICAgICAgICAgICAgIH1cclxuICAgICAgICAgICAgfVxyXG4gICAgICAgIH1cclxuXHJcbiAgICAgICAgLnVzZXIge1xyXG4gICAgICAgICAgICBAZXh0ZW5kIC5taWRkbGUtaGVpZ2h0O1xyXG4gICAgICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcclxuICAgICAgICAgICAgcG9zaXRpb246IHJlbGF0aXZlO1xyXG4gICAgICAgICAgICBsZWZ0OiAzMDBweDtcclxuICAgICAgICAgICAgbWluLWhlaWdodDogNTUwcHg7XHJcblxyXG4gICAgICAgICAgICBAbWVkaWEgc2NyZWVuIGFuZCAobWF4LXdpZHRoOiAxMDI0cHgpe1xyXG4gICAgICAgICAgICAgICAgbGVmdDogMTkwcHg7IFxyXG4gICAgICAgICAgICB9XHJcblxyXG4gICAgICAgICAgICAucGhvdG9ncmFwaHsgICAgXHJcbiAgICAgICAgICAgICAgICBwb3NpdGlvbjogYWJzb2x1dGU7XHJcbiAgICAgICAgICAgICAgICB6LWluZGV4OiAxO1xyXG4gICAgICAgICAgICAgICAgbWF4LXdpZHRoOiA0MThweDtcclxuICAgICAgICAgICAgICAgIG1hcmdpbjogMCBhdXRvO1xyXG4gICAgICAgICAgICAgICAgYm9yZGVyLXJhZGl1czogNXB4O1xyXG4gICAgICAgICAgICB9XHJcblxyXG4gICAgICAgICAgICAuYmFja2dyb3VuZHtcclxuICAgICAgICAgICAgICAgIHBvc2l0aW9uOiByZWxhdGl2ZTsgICAgXHJcbiAgICAgICAgICAgICAgICBtYXgtd2lkdGg6IDU1MHB4O1xyXG4gICAgICAgICAgICB9XHJcbiAgICAgICAgfVxyXG5cclxuXHJcbiAgICB9XHJcbn1cclxuXHJcbkBtZWRpYSBzY3JlZW4gYW5kIChtYXgtd2lkdGg6IDc2OHB4KXtcclxuICAgIC5jb250YWluZXJ7XHJcbiAgICAgICAgLmNhcm91c2Vse1xyXG4gICAgICAgICAgICAuc2xpY2stcHJldiB7XHJcbiAgICAgICAgICAgICAgICBsZWZ0OiAtMTdweDtcclxuICAgICAgICAgICAgfVxyXG4gICAgICAgICAgICBcclxuICAgICAgICAgICAgLnNsaWNrLW5leHQge1xyXG4gICAgICAgICAgICAgICAgcmlnaHQ6IC0xN3B4O1xyXG4gICAgICAgICAgICB9XHJcblxyXG4gICAgICAgICAgICAuc2xpY2stbGlzdHtcclxuICAgICAgICAgICAgICAgIC5zbGljay1zbGlkZXtcclxuICAgICAgICAgICAgICAgICAgICBkaXNwbGF5OiBmbGV4O1xyXG4gICAgICAgICAgICAgICAgICAgIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW4tcmV2ZXJzZTtcclxuICAgICAgICAgICAgICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcclxuICAgICAgICAgICAgICAgIH1cclxuICAgICAgICAgICAgfVxyXG5cclxuICAgICAgICAgICAgLm1lc3NhZ2V7XHJcbiAgICAgICAgICAgICAgICB3aWR0aDogMTAwJTtcclxuICAgICAgICAgICAgICAgIHBvc2l0aW9uOiBpbml0aWFsO1xyXG4gICAgICAgICAgICAgICAgbWFyZ2luOiAwO1xyXG4gICAgICAgICAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgICAgICAgICAgICAgbWFyZ2luLXRvcDogODBweDtcclxuXHJcbiAgICAgICAgICAgICAgICAucXVvdGVze1xyXG4gICAgICAgICAgICAgICAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTsgXHJcbiAgICAgICAgICAgICAgICAgICAgei1pbmRleDogLTE7XHJcbiAgICAgICAgICAgICAgICAgICAgbWFyZ2luLWxlZnQ6IDEwMHB4OyBcclxuICAgICAgICAgICAgICAgICAgICB0b3A6IDM2MHB4O1xyXG4gICAgICAgICAgICAgICAgfVxyXG4gICAgICAgICAgICB9XHJcblxyXG4gICAgICAgICAgICAudXNlcntcclxuICAgICAgICAgICAgICAgIHdpZHRoOiAxMDAlO1xyXG4gICAgICAgICAgICAgICAgcG9zaXRpb246IHN0aWNreTtcclxuXHJcbiAgICAgICAgICAgICAgICAucGhvdG9ncmFwaHsgICAgXHJcbiAgICAgICAgICAgICAgICAgICAgcG9zaXRpb246IGFic29sdXRlO1xyXG4gICAgICAgICAgICAgICAgICAgIHotaW5kZXg6IDE7XHJcbiAgICAgICAgICAgICAgICAgICAgbWF4LXdpZHRoOiA4MCU7XHJcbiAgICAgICAgICAgICAgICAgICAgbWFyZ2luOiAwIGF1dG87XHJcbiAgICAgICAgICAgICAgICAgICAgYm9yZGVyLXJhZGl1czogNXB4O1xyXG4gICAgICAgICAgICAgICAgfVxyXG4gICAgXHJcbiAgICAgICAgICAgICAgICAuYmFja2dyb3VuZHtcclxuICAgICAgICAgICAgICAgICAgICBwb3NpdGlvbjogcmVsYXRpdmU7ICAgIFxyXG4gICAgICAgICAgICAgICAgICAgIG1heC13aWR0aDogMTAwJTtcclxuICAgICAgICAgICAgICAgIH1cclxuICAgICAgICAgICAgfVxyXG4gICAgICAgIH1cclxuXHJcbiAgICAgICAgLmN1cnZle1xyXG4gICAgICAgICAgICBtYXgtd2lkdGg6IDEwMCU7XHJcbiAgICAgICAgfVxyXG4gICAgfVxyXG59XHJcblxyXG5AbWVkaWEgc2NyZWVuIGFuZCAobWluLXdpZHRoOjc2OXB4KSBhbmQgKG1heC13aWR0aDogMTAyNHB4KXtcclxuICAgIC5jb250YWluZXJ7XHJcbiAgICAgICAgLmNhcm91c2Vse1xyXG4gICAgICAgICAgICAubWVzc2FnZXtcclxuICAgICAgICAgICAgICAgIC5xdW90ZXN7XHJcbiAgICAgICAgICAgICAgICAgICAgcG9zaXRpb246IGFic29sdXRlOyBcclxuICAgICAgICAgICAgICAgICAgICB6LWluZGV4OiAtMTtcclxuICAgICAgICAgICAgICAgICAgICBtYXJnaW4tbGVmdDogMTAwcHg7IFxyXG4gICAgICAgICAgICAgICAgICAgIHRvcDogNjgwcHg7XHJcbiAgICAgICAgICAgICAgICB9XHJcbiAgICAgICAgICAgIH1cclxuICAgICAgICB9XHJcblxyXG4gICAgICAgIC5jdXJ2ZXtcclxuICAgICAgICAgICAgbWF4LXdpZHRoOiAxMDAlO1xyXG4gICAgICAgIH1cclxuICAgIH1cclxufSIsIi5mdWxsLWJhbm5lcntcclxuICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcclxuICAgIGJhY2tncm91bmQ6IHVybChcIi4uLy4uL2Fzc2V0cy9pbWFnZXMvZnVsbGJhbm5lci5wbmdcIikgbm8tcmVwZWF0O1xyXG4gICAgYmFja2dyb3VuZC1zaXplOiAxMDAlO1xyXG4gICAgaGVpZ2h0OiA1MDBweDtcclxuICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcclxuICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XHJcblxyXG4gICAgLm1lc3NhZ2V7XHJcbiAgICAgICAgcG9zaXRpb246IGFic29sdXRlO1xyXG4gICAgICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICAgICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XHJcbiAgICAgICAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcclxuXHJcbiAgICAgICAgaW1ne1xyXG4gICAgICAgICAgICB3aWR0aDogNDUwcHg7XHJcbiAgICAgICAgICAgIG1hcmdpbjogMCBhdXRvO1xyXG4gICAgICAgIH1cclxuXHJcbiAgICAgICAgaDJ7XHJcbiAgICAgICAgICAgIGZvbnQtZmFtaWx5OiAnUmFsZXdheScsIHNhbnMtc2VyaWYgIWltcG9ydGFudDtcclxuICAgICAgICAgICAgZm9udC1zdHlsZTogbm9ybWFsO1xyXG4gICAgICAgICAgICBmb250LXdlaWdodDogYm9sZDtcclxuICAgICAgICAgICAgZm9udC1zaXplOiAzMHB4O1xyXG4gICAgICAgICAgICBsaW5lLWhlaWdodDogMzVweDtcclxuICAgICAgICAgICAgZGlzcGxheTogZmxleDtcclxuICAgICAgICAgICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcclxuICAgICAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgICAgICAgICB0ZXh0LXRyYW5zZm9ybTogdXBwZXJjYXNlO1xyXG4gICAgICAgICAgICBjb2xvcjogJHdoaXRlO1xyXG4gICAgICAgIH1cclxuICAgIH1cclxufVxyXG4iLCIud2hvLWFyZXtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiAkZ3JheTtcclxuICBcclxuICAuY29udGFpbmVye1xyXG4gICAgcGFkZGluZzogMTIwcHggMDtcclxuICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWJldHdlZW47XHJcblxyXG4gICAgLmNvbnRlbnR7XHJcbiAgICAgIHdpZHRoOiBjYWxjKDEwMHZ3IC0gNTAlKTtcclxuXHJcbiAgICAud2hvLWFyZS10aXRsZXtcclxuICAgICAgZm9udC1mYW1pbHk6ICdJbnRlcicsIHNhbnMtc2VyaWYgIWltcG9ydGFudDtcclxuICAgICAgYWxpZ24tc2VsZjogZmxleC1zdGFydDtcclxuICAgICAgZm9udC1zaXplOiAyNXB0O1xyXG4gICAgICBmb250LXdlaWdodDogYm9sZGVyO1xyXG4gICAgICBjb2xvcjogJGJsdWUtY29tcGFueTtcclxuICAgICAgbWFyZ2luLWJvdHRvbTogNDBweDtcclxuICAgIH1cclxuICAgIC53aG8tYXJlLXRleHR7XHJcbiAgICAgIGNvbG9yOiAkYmxhY2s7XHJcbiAgICAgIGZvbnQtZmFtaWx5OiAnUmFsZXdheScsIHNhbnMtc2VyaWYgIWltcG9ydGFudDtcclxuICAgICAgbWFyZ2luLWJvdHRvbTogMTlweDtcclxuICAgIH1cclxuXHJcbiAgICAud2hvLWFyZS1zdWJ0aXRsZXtcclxuICAgICAgZm9udC1zaXplOiAxOHB0O1xyXG4gICAgICBmb250LXdlaWdodDogYm9sZDtcclxuICAgICAgY29sb3I6ICRibHVlLWNvbXBhbnk7XHJcbiAgICAgIG1hcmdpbi1ib3R0b206IDc1cHg7XHJcbiAgICAgIGZvbnQtZmFtaWx5OiAnUmFsZXdheScsIHNhbnMtc2VyaWYgIWltcG9ydGFudDtcclxuICAgICAgbWFyZ2luLWJvdHRvbTogOTdweDtcclxuICAgIH1cclxuICAgIC53aG8tYXJlLWJ0bntcclxuICAgICAgaGVpZ2h0OiA0NHB4O1xyXG4gICAgICB3aWR0aDogMjgwcHg7XHJcbiAgICAgIHBhZGRpbmc6IDVweDtcclxuICAgICAgY29sb3I6ICR3aGl0ZTtcclxuICAgICAgYm9yZGVyOiBub25lO1xyXG4gICAgICBiYWNrZ3JvdW5kOiAkYmx1ZS1jb21wYW55O1xyXG4gICAgICBmb250LWZhbWlseTogJ1JhbGV3YXknLCBzYW5zLXNlcmlmICFpbXBvcnRhbnQ7XHJcbiAgICB9XHJcbiAgfVxyXG5cclxuICAgIC5zdGFjay1mb2xkZXJze1xyXG4gICAgICB3aWR0aDogY2FsYygxMDB2dyAtIDUwJSk7XHJcbiAgICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICAgIGZsZXgtd3JhcDogd3JhcDtcclxuXHJcbiAgICAgIC5mb2xkZXJ7XHJcbiAgICAgICAgZGlzcGxheTogZmxleDtcclxuICAgICAgICBwb3NpdGlvbjogcmVsYXRpdmU7XHJcbiAgICAgICAgbWFyZ2luLWxlZnQ6IDMwcHg7XHJcbiAgICAgICAgbWFyZ2luLWJvdHRvbTogMzBweDtcclxuICAgICAgfVxyXG5cclxuICAgICAgLmh1c3RsZXItdGVhbXtcclxuICAgICAgICBvcGFjaXR5OiAwLjA7XHJcbiAgICAgICAgcG9zaXRpb246IGFic29sdXRlO1xyXG4gICAgICAgIHRyYW5zaXRpb246IDFzO1xyXG4gICAgICB9XHJcblxyXG4gICAgICAuaHlwZXItdGVhbXtcclxuICAgICAgICBvcGFjaXR5OiAwO1xyXG4gICAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICAgICAgfVxyXG5cclxuICAgICAgLmhhY2tlci10ZWFte1xyXG4gICAgICAgIG9wYWNpdHk6IDA7XHJcbiAgICAgICAgcG9zaXRpb246IGFic29sdXRlO1xyXG4gICAgICB9XHJcblxyXG4gICAgICAuaGlwc3Rlci10ZWFte1xyXG4gICAgICAgIG9wYWNpdHk6IDA7XHJcbiAgICAgICAgcG9zaXRpb246IGFic29sdXRlO1xyXG4gICAgICB9XHJcbiAgICB9XHJcbiAgfVxyXG59XHJcblxyXG4uaHVzdGxlci10ZWFtOmhvdmVye1xyXG4gIGFuaW1hdGlvbi1uYW1lOiBmYWRlT25Ib3ZlcjtcclxuICBhbmltYXRpb24tZHVyYXRpb246IDFzO1xyXG4gIGFuaW1hdGlvbi1pdGVyYXRpb24tY291bnQ6IDE7XHJcbiAgYW5pbWF0aW9uLWZpbGwtbW9kZTogZm9yd2FyZHM7XHJcbn1cclxuXHJcbi5oeXBlci10ZWFtOmhvdmVye1xyXG4gIGFuaW1hdGlvbi1uYW1lOiBmYWRlT25Ib3ZlcjtcclxuICBhbmltYXRpb24tZHVyYXRpb246IDFzO1xyXG4gIGFuaW1hdGlvbi1pdGVyYXRpb24tY291bnQ6IDE7XHJcbiAgYW5pbWF0aW9uLWZpbGwtbW9kZTogZm9yd2FyZHM7XHJcbn1cclxuXHJcbi5oYWNrZXItdGVhbTpob3ZlcntcclxuICBhbmltYXRpb24tbmFtZTogZmFkZU9uSG92ZXI7XHJcbiAgYW5pbWF0aW9uLWR1cmF0aW9uOiAxcztcclxuICBhbmltYXRpb24taXRlcmF0aW9uLWNvdW50OiAxO1xyXG4gIGFuaW1hdGlvbi1maWxsLW1vZGU6IGZvcndhcmRzO1xyXG59XHJcblxyXG4uaGlwc3Rlci10ZWFtOmhvdmVye1xyXG4gIGFuaW1hdGlvbi1uYW1lOiBmYWRlT25Ib3ZlcjtcclxuICBhbmltYXRpb24tZHVyYXRpb246IDFzO1xyXG4gIGFuaW1hdGlvbi1pdGVyYXRpb24tY291bnQ6IDE7XHJcbiAgYW5pbWF0aW9uLWZpbGwtbW9kZTogZm9yd2FyZHM7XHJcbn1cclxuXHJcbkBrZXlmcmFtZXMgZmFkZU9uSG92ZXJ7XHJcbiAgMCV7XHJcbiAgICBvcGFjaXR5OiAwO1xyXG4gICAgbWFyZ2luLWxlZnQ6IC0xMHB4O1xyXG4gICAgbWFyZ2luLXRvcDogLTEwcHg7XHJcbiAgfVxyXG5cclxuICAxMDAle1xyXG4gICAgb3BhY2l0eTogMTtcclxuICAgIG1hcmdpbi1sZWZ0OiAtMzBweDtcclxuICAgIG1hcmdpbi10b3A6IC00MHB4O1xyXG4gIH1cclxufSIsIi5taXNzaW9ue1xyXG4gIGJhY2tncm91bmQtY29sb3I6ICRibHVlLWNvbXBhbnk7XHJcbiAgd2lkdGg6IDEwMCU7XHJcbiAgZm9udC1mYW1pbHk6ICdSYWxld2F5Jywgc2Fucy1zZXJpZiAhaW1wb3J0YW50O1xyXG4gIFxyXG4gIC5jb250YWluZXJ7XHJcbiAgICAgIHBhZGRpbmc6IDEyMHB4IDA7XHJcbiAgICAgIGRpc3BsYXk6IGZsZXg7XHJcblxyXG4gICAgICBkaXZ7XHJcbiAgICAgICAgICB3aWR0aDogY2FsYygxMDB2dyAvIDQpO1xyXG4gICAgICAgICAgcGFkZGluZzogMTBweDtcclxuXHJcbiAgICAgICAgICBwe1xyXG4gICAgICAgICAgICAgIGZvbnQtZmFtaWx5OiBSYWxld2F5O1xyXG4gICAgICAgICAgICAgIGZvbnQtc3R5bGU6IG5vcm1hbDtcclxuICAgICAgICAgICAgICBmb250LXdlaWdodDogODAwO1xyXG4gICAgICAgICAgICAgIGZvbnQtc2l6ZTogMTZweDtcclxuICAgICAgICAgICAgICBsaW5lLWhlaWdodDogMTlweDtcclxuICAgICAgICAgICAgICBkaXNwbGF5OiBmbGV4O1xyXG4gICAgICAgICAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XHJcbiAgICAgICAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgICAgICAgICAgIHRleHQtdHJhbnNmb3JtOiB1cHBlcmNhc2U7XHJcblxyXG4gICAgICAgICAgICAgIGNvbG9yOiAkd2hpdGU7XHJcblxyXG4gICAgICAgICAgfVxyXG4gICAgICB9XHJcblxyXG4gICAgICAudGl0bGV7XHJcbiAgICAgICAgZm9udC1mYW1pbHk6ICdSYWxld2F5Jywgc2Fucy1zZXJpZiAhaW1wb3J0YW50O1xyXG4gICAgICAgIGZvbnQtc3R5bGU6IG5vcm1hbDtcclxuICAgICAgICBmb250LXdlaWdodDogODAwO1xyXG4gICAgICAgIGZvbnQtc2l6ZTogMzJweDtcclxuICAgICAgICBsaW5lLWhlaWdodDogMzhweDtcclxuICAgICAgICBmbGV4LXdyYXA6IHdyYXA7XHJcbiAgICAgICAgY29sb3I6ICR3aGl0ZTtcclxuICAgICAgfVxyXG5cclxuICAgICAgLkNvbXByb21ldGltZW50bywgLkNsYXJlemEsIC5Gb3LDp2F7XHJcbiAgICAgICAgICBkaXNwbGF5OiBmbGV4O1xyXG4gICAgICAgICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XHJcbiAgICAgICAgICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xyXG4gICAgICAgICAgcGFkZGluZzogMCA0MHB4O1xyXG5cclxuICAgICAgICAgIHB7XHJcbiAgICAgICAgICAgICAgZGlzcGxheTogZmxleDtcclxuICAgICAgICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcclxuICAgICAgICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgICAgICAgICB9XHJcblxyXG4gICAgICAgICAgc3BhbntcclxuICAgICAgICAgICAgICBmb250LWZhbWlseTogUmFsZXdheTtcclxuICAgICAgICAgICAgICBmb250LXN0eWxlOiBub3JtYWw7XHJcbiAgICAgICAgICAgICAgZm9udC13ZWlnaHQ6IG5vcm1hbDtcclxuICAgICAgICAgICAgICBmb250LXNpemU6IDE2cHg7XHJcbiAgICAgICAgICAgICAgbGluZS1oZWlnaHQ6IDI0cHg7XHJcbiAgICAgICAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgICAgICAgICAgIGNvbG9yOiAkd2hpdGU7XHJcbiAgICAgICAgICAgICAgb3BhY2l0eTogMC42O1xyXG4gICAgICAgICAgfVxyXG4gICAgICB9XHJcbiAgfVxyXG4gIFxyXG59IiwiLm9ubGluZS1tZWV0aW5ne1xyXG4gIHdpZHRoOiAxMDAlO1xyXG4gIGRpc3BsYXk6IGZsZXg7XHJcbiAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjsgIFxyXG4gIGFsaWduLWl0ZW1zOiBjZW50ZXI7XHJcbiAganVzdGlmeS1jb250ZW50OiBzcGFjZS1hcm91bmQ7XHJcbiAgYmFja2dyb3VuZDogJGJlaWdlO1xyXG4gIHBhZGRpbmc6IDEyMHB4IDA7XHJcblxyXG4gIGgze1xyXG4gICAgZm9udC1mYW1pbHk6ICdJbnRlcicsIHNhbnMtc2VyaWYgIWltcG9ydGFudDtcclxuICAgIGZvbnQtc3R5bGU6IG5vcm1hbDtcclxuICAgIGZvbnQtd2VpZ2h0OiBib2xkO1xyXG4gICAgZm9udC1zaXplOiAzMnB4O1xyXG4gICAgbGluZS1oZWlnaHQ6IDM5cHg7XHJcbiAgICBkaXNwbGF5OiBmbGV4O1xyXG4gICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcclxuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICAgIGNvbG9yOiAkYmx1ZS1jb21wYW55O1xyXG4gICAgbWFyZ2luLWJvdHRvbTogNDBweDtcclxuXHJcbiAgfVxyXG5cclxuICBpbWd7XHJcbiAgICB3aWR0aDogNzA2cHg7XHJcbiAgICBoZWlnaHQ6IDM4OXB4O1xyXG4gICAgbWFyZ2luLWJvdHRvbTogODNweDtcclxuICB9XHJcblxyXG4gIC5vbmxpbmUtbWVldGluZy10ZXh0e1xyXG4gICAgZGlzcGxheTogZmxleDtcclxuICAgIHdpZHRoOiA4MCU7XHJcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcclxuICAgIG1hcmdpbi1ib3R0b206IDgwcHg7XHJcbiAgICBmb250LWZhbWlseTogJ1JhbGV3YXknLCBzYW5zLXNlcmlmICFpbXBvcnRhbnQ7XHJcbiAgICBmb250LXN0eWxlOiBub3JtYWw7XHJcbiAgICBmb250LXdlaWdodDogbm9ybWFsO1xyXG4gICAgbGV0dGVyLXNwYWNpbmc6IDAuMDJlbTtcclxuICAgIGNvbG9yOiAkYmx1ZS1jb21wYW55O1xyXG4gICAgcGFkZGluZzogMCA4MHB4O1xyXG4gICAgXHJcbiAgICBwe1xyXG4gICAgICB0ZXh0LWFsaWduOiBsZWZ0O1xyXG4gICAgICB3aWR0aDogNTAwcHg7XHJcbiAgICAgIGZsZXgtd3JhcDogd3JhcDtcclxuICAgICAgcGFkZGluZzogMCAzMHB4O1xyXG4gICAgICBmb250LXNpemU6IDE2cHg7XHJcbiAgICAgIGxpbmUtaGVpZ2h0OiAyMnB4O1xyXG4gICAgfVxyXG4gIH1cclxuXHJcbiAgaDR7XHJcbiAgICBmb250LXdlaWdodDogYm9sZDtcclxuICAgIGNvbG9yOiAkYmx1ZS1jb21wYW55O1xyXG4gICAgZm9udC1mYW1pbHk6ICdSYWxld2F5Jywgc2Fucy1zZXJpZiAhaW1wb3J0YW50O1xyXG4gICAgZm9udC1zdHlsZTogbm9ybWFsO1xyXG4gICAgZm9udC13ZWlnaHQ6IGJvbGQ7XHJcbiAgICBmb250LXNpemU6IDIycHg7XHJcbiAgICBsaW5lLWhlaWdodDogMjJweDtcclxuICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICBhbGlnbi1pdGVtczogY2VudGVyO1xyXG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgbGV0dGVyLXNwYWNpbmc6IDAuMDJlbTtcclxuICAgIHRleHQtdHJhbnNmb3JtOiB1cHBlcmNhc2U7XHJcbiAgfVxyXG59IiwiLmZvb3RlcntcclxuICAgIHdpZHRoOiAxMDAlO1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogJGJsdWUtZm9vdGVyO1xyXG4gICAgZGlzcGxheTogZmxleDtcclxuICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xyXG4gICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcclxuICAgIHBhZGRpbmc6IDYwcHggNDVweDtcclxuXHJcbiAgICAubG9nb3tcclxuICAgICAgICB3aWR0aDogMzAwcHg7XHJcbiAgICAgICAgZGlzcGxheTogZmxleDtcclxuICAgICAgICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xyXG4gICAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XHJcblxyXG4gICAgICAgIGltZ3tcclxuICAgICAgICAgICAgd2lkdGg6IDEwMCU7XHJcbiAgICAgICAgICAgIG1hcmdpbi1ib3R0b206IDIwcHg7XHJcbiAgICAgICAgfVxyXG4gICAgICAgIHB7XHJcbiAgICAgICAgICAgIGNvbG9yOiAkd2hpdGU7XHJcbiAgICAgICAgICAgIGZvbnQtZmFtaWx5OiAnUmFsZXdheScsIHNhbnMtc2VyaWYgIWltcG9ydGFudDtcclxuICAgICAgICB9XHJcbiAgICB9XHJcbn0iXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IjtBRUFBLEFBQUEsWUFBWSxDQUFBO0VBQ1IsUUFBUSxFQUFFLFFBQVE7RUFDbEIsR0FBRyxFQUFFLEtBQUs7RUFDVixPQUFPLEVBQUUsQ0FBQztFQUNWLEtBQUssRUFBRSxJQUFJO0VBQ1gsTUFBTSxFQUFFLElBQUk7RUFDWixLQUFLLEVER1UsT0FBTyxHQ016QjtFQVBHLE1BQU0sQ0FBQyxNQUFNLE1BQU0sU0FBUyxFQUFFLEtBQUs7SUFSdkMsQUFBQSxZQUFZLENBQUE7TUFTSixHQUFHLEVBQUUsS0FBSyxHQU1qQjtFQUhHLE1BQU0sQ0FBQyxNQUFNLE1BQU0sU0FBUyxFQUFFLEtBQUssT0FBTyxTQUFTLEVBQUUsTUFBTTtJQVovRCxBQUFBLFlBQVksQ0FBQTtNQWFKLEdBQUcsRUFBRSxLQUFLLEdBRWpCOztBQUVELEFBQUEsY0FBYyxFR2pCZCxVQUFVLENBU04sYUFBYSxFQVRqQixVQUFVLENBa0JOLFNBQVMsQ0FLTCxRQUFRLEVBdkJoQixVQUFVLENBa0JOLFNBQVMsQ0EyRkwsS0FBSyxDSDVGQztFQUNWLE9B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 */
-
-  </style>
+    <link rel='stylesheet' type='text/css' media='screen' href='assets/css/landing-page.css'>
 </head>
 
 <body>
-  <!-- INICIO - Header -->
-  <header class="header" id="myHeader">
+    <div class="mobile-only">
+        <img src="assets/images/landing-page/vector-logo.svg">
+        <a href="javascript:void(0);" class="btn-download" data-toggle="modal" data-target="#ExemploModalCentralizado">
+            DOWNLOAD GRÁTIS
+        </a>
+    </div>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="assets/images/9storm-b.svg">
+            </div>
+            <a href="javascript:void(0);" class="btn-download" data-toggle="modal"
+                data-target="#ExemploModalCentralizado">
+                DOWNLOAD GRÁTIS
+            </a>
+        </div>
+    </header>
+    <section class="banner">
+        <div class="container">
+            <p class="call">Download Grátis</p>
+            <h1 class="title">Conteúdos criativos para stories do instagram</h1>
+            <span class="message">Aumente seguidores, faça melhores postagens, construa uma audiência fiel, faça
+                conteúdo interessante e alavanque seus stories.</span>
+            <a href="javascript:void(0);" class="btn-download" data-toggle="modal"
+                data-target="#ExemploModalCentralizado">FAÇA DOWNLOAD</a>
+        </div>
+    </section>
+
+    <section class="checklist">
+        <div class="container">
+            <h2 class="title">Tudo que você precisa saber para criar<br> stories criativas nas redes sociais</h2>
+
+            <div class="itens">
+                <div class="col-md-3">
+                    <img src="assets/images/landing-page/ghost.gif" class="img-responsive">
+                    <p><i class="fas fa-check"></i> Truques de stories</p>
+                </div>
+                <div class="col-md-3">
+                    <img src="assets/images/landing-page/lightning-bolt-weather.gif" class="img-responsive">
+                    <p><i class="fas fa-check"></i> Novos filtros e fontes</p>
+                </div>
+                <div class="col-md-3">
+                    <img src="assets/images/landing-page/angry-cat.gif" class="img-responsive">
+                    <p><i class="fas fa-check"></i> Receba gifs inéditos</p>
+                </div>
+                <div class="col-md-3">
+                    <img src="assets/images/landing-page/in-love.gif" class=" img-responsive">
+                    <p><i class="fas fa-check"></i> Técnicas para stories mais interessantes</p>
+                </div>
+            </div>
+        </div>
+        <div id="carousel-container">
+            <div class="carousel-wrapper">
+                <div class="carousel">
+                    <div>
+                        <img src="assets/images/carousel/insta-1.png" class="img-responsive" alt="insta">
+                    </div>
+            
+                    <div>
+                        <img src="assets/images/carousel/insta-2.png" class="img-responsive" alt="insta">
+                    </div>
+            
+                    <div>
+                        <img src="assets/images/carousel/insta-3.png" class="img-responsive" alt="insta">
+                    </div>
+            
+                    <div>
+                        <img src="assets/images/carousel/insta-4.png" class="img-responsive" alt="insta">
+                    </div>
+            
+                    <div>
+                        <img src="assets/images/carousel/insta-5.png" class="img-responsive" alt="insta">
+                    </div>
+            
+                    <div>
+                        <img src="assets/images/carousel/insta-6.png" class="img-responsive" alt="insta">
+                    </div>
+            
+                    <div>
+                        <img src="assets/images/carousel/insta-7.png" class="img-responsive" alt="insta">
+                    </div>
+                    
+                    <div>
+                        <img src="assets/images/carousel/insta-8.png" class="img-responsive" alt="insta">
+                    </div>
+            
+                    <div>
+                        <img src="assets/images/carousel/insta-9.png" class="img-responsive" alt="insta">
+                    </div>
+            
+                    <div>
+                        <img src="assets/images/carousel/insta-10.png" class="img-responsive" alt="insta">
+                    </div>
+                      
+                </div>
+            </div>
+            
+            <div class="carousel-phone"></div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <h2 class="title">Comece a aprender agora com conteúdo<br> gratuito e exclusivo.</h2>
+            <a href="javascript:void(0);" class="btn-download" data-toggle="modal"
+                data-target="#ExemploModalCentralizado">FAÇA O DOWNLOAD</a>
+        </div>
+        <div class="last-container">
+            <span>© 2020 9Storm. All rights reserved.</span>
+            <img src="assets/images/9storm-b.svg" class="logo-white">
+        </div>
+    </footer>
+
+
     <div class="container">
-      <div class="logo">
-        <img src="assets/images/logo-w.png" class="img-responsive">
-      </div>
-      <div class="navigation">
-        <ul>
-          <a href="#full-banner">
-            <li>HOME</li>
-          </a>
-          <a href="#who-are">
-            <li>QUEM SOMOS</li>
-          </a>
-          <a href="#mission">
-            <li>VALORES</li>
-          </a>
-          <a href="#team">
-            <li>NOSSO TIME</li>
-          </a>
-          <a href="landing-page.html">
-            <li>CONTATO</li>
-          </a>
-        </ul>
-      </div>
-    </div>
-  </header>
+        <!-- Modal -->
+        <div class="modal fade" id="ExemploModalCentralizado" tabindex="-1" role="dialog"
+            aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="form-text">
+                            <span class="cta-title">Aproveite, é grátis</span>
+                            <span class="cta-text">É só preencher esse único formulário abaixo para acessar</span>
+                        </div>
+                        <form method="POST"
+                            action="https://smtl.gama.academy/leads/bfef0a21-b7e1-11ea-8228-89cff86db9a0">
+                            <div class="form-group">
+                                <input name="name" type="text" pattern="^\D{2,}\s[\D\s]{2,}$"
+                                    title="Digite seu nome completo" placeholder="Qual seu nome?" required />
+                            </div>
+                            <div class="form-group">
+                                <input name="email" type="email" placeholder="Email para" required />
+                            </div>
 
-  <!-- INICIO - Full-banner -->
-  <section class="full-banner" id="full-banner">
-    <div class="message">
-      <img src="assets/images/logo-w.png" class="img-responsive">
-      <h2>OFERECEMOS INOVAÇÃO COM PROPÓSITO</h2>
-    </div>
-  </section>
-  <!-- FIM - Full-banner -->
+                            <input name="redirectTo" type="hidden" value="http://9storm.com.br/obrigado.html" />
 
-
-  <!-- INICIO - Quem Somos -->
-  <section class="who-are" id="who-are">
-    <div class="container">
-      <div class="content">
-        <p class="who-are-title">Quem somos</p>
-        <p class="who-are-text">Gamavenger é uma equipe da Gama Experience criada por profissionais de tecnologia que
-          valorizam foco,
-          resiliência, comprometimento e entrega de resultados em um curto período de tempo.</p>
-        <p class="who-are-text">Nosso time de heróis da tecnologia se compromete a trabalhar com empatia em conjunto com
-          a
-          cultura de cada empresa envolvida, pois acreditamos que serviços não são somentes produtos, e sim, a
-          realização
-          de um sonho.</p>
-        <p class="who-are-subtitle">SOMOS UM TIME COMPLETO.</p>
-        <button class="who-are-btn">NOSSO TIME</button>
-      </div>
-      <div class="stack-folders">
-        <div class="folder">
-          <img class="hustler" src="assets/images/stack-folders/pasta-hustler.png" />
-          <img class="hustler-team" src="assets/images/stack-folders/conjunto-hustler.png" />
-        </div>
-        <div class="folder hyper">
-          <img src="assets/images/stack-folders/pasta-hyper.png" />
-          <img class="hyper-team" src="assets/images/stack-folders/conjunto-hyper.png" />
-        </div>
-        <div class="folder hacker">
-          <img src="assets/images/stack-folders/pasta-hacker.png" />
-          <img class="hacker-team" src="assets/images/stack-folders/conjunto-hacker.png" />
-        </div>
-        <div class="folder hipster">
-          <img src="assets/images/stack-folders/pasta-hipster.png" />
-          <img class="hipster-team" src="assets/images/stack-folders/conjunto-hipster.png" />
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- FIM - Quem Somos -->
-
-
-  <!-- INICIO - O que podemos oferecer -->
-  <section class="mission" id="mission">
-    <div class="container">
-      <div>
-        <h2 class="title">Veja o que podemos oferecer para o projeto</p>
-      </div>
-
-      <div class="Comprometimento">
-        <img src="assets/images/mission-icons/icon-comprometimento.png" class="img-responsive" />
-        <p>Comprometimento</p>
-        <span>
-          Temos um equipe de diferentes backgrounds que trabalha de forma coesa e comprometida com a entrega de resultados.
-        </span>
-      </div>
-      <div class="Clareza">
-        <img src="assets/images/mission-icons/icon-clareza.png" class="img-responsive" />
-        <p>Clareza</p>
-        <span>
-          Clareza é um dos nossos principais pilares porque traz transparência e confiança aos nossos serviços.
-        </span>
-      </div>
-      <div class="Força">
-        <img src="assets/images/mission-icons/icon-força.png" class="img-responsive" />
-        <p>Força</p>
-        <span>
-          Trabalhamos com uma cultura de super heróis que alia força mental e física para desenvolver projetos de tecnologia.
-        </span>
-      </div>
-    </div>
-  </section>
-  <!-- FIM - O que podemos oferecer -->
-
-
-  <!-- INICIO - Nosso Time -->
-  <section class="team" id="team">
-    <div class="container">
-      <h2 class="title">NOSSO TIME</h2>
-      <div class="carousel">
-        <div>
-          <div class="message">
-            <div>
-              <p class="name">Andreza Rockenbach [Hipster]</p>
-              <p class="infos">22 | São Paulo - SP | LinkedIn: <a href="https://www.linkedin.com/in/andrezarockenbach/" target="_blank">/andreza-rockenbach</a> </p>
-              
-              <div class="info-user">
-                <p>Estudante de Direito com experiência na área jurídica de uma Startup. Tenho muita energia e amo
-                  andar
-                  de skate, praticar lutas e estar em contato com a natureza. Tenho muito medo de avião mas amo
-                  viajar.
-                  Estou em busca de novos desafios e com o Gama XP espero trocar conhecimentos para expandir minha
-                  visão
-                  generalista e superar minhas dificuldades.</p>
-                <p><span>Sonho grande: </span> revolucionar o mercado jurídico e morar em outro país.</p>
-                <p><span>O que quero aprender: </span> a aplicar os conceitos de UX/UI no direito e desenvolver soft
-                  skills.</p>
-                <p><span>O que posso ensinar: </span> ter visão generalista e trabalho em equipe.</p>
-                <p><span>Em um ano estarei… </span> trabalhando com direito e tecnologia.</p>
-              </div>
-              <p class="phrase">“Infelicidade é só questão de prefixo.” <i>Guimarães Rosa</i></p>
+                            <div class="form-group">
+                                <button class="confirm-btn" type="submit">Quero meu ebook</button>
+                                <button class="cancel-btn" type="button" data-dismiss="modal">CANCELAR</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="user">
-            <img src="assets/images/andrezza-polaroid-grande.png" class="img-responsive" alt="Andreza Rockenbach [Hipster]">
-          </div>
         </div>
-
-        <div>
-          <div class="message">
-            <div>
-              <p class="name">Bianca Zambonato [Hipster]</p>
-              <p class="infos">26 | Florianópolis - SC | LinkedIn: <a href="https://www.linkedin.com/in/biancazambonato/" target="_blank">/bianca-zambonato</a> </p>
-              <div class="info-user">
-                <p>Formada em design, me considero designer de produtos físicos, mas trabalho com design gráfico.
-                  Sou
-                  apaixonada por dança de salão e doguinhos, um pouco tímida mas comunicativa. Gosto de sentir que
-                  faço
-                  a diferença :)</p>
-                <p>A ansiedade me trouxe ter medo do próprio medo. Com o Gama XP espero crescer profissionalmente
-                  para
-                  poder conquistar uma posição como UX no mercado.</p>
-
-                <p><strong>Sonho grande:</strong> morar no Canadá.</p>
-                <p><strong>O que quero aprender:</strong> a desenvolver interfaces com foco no usuário com
-                  acessibilidade, trabalhar com agilidade e a colher informações de resultados após aplicações da
-                  interface.</p>
-                <p><strong>O que posso ensinar:</strong> criação de personas, processos do design thinking, criação
-                  de
-                  protótipos de baixa fidelidade.</p>
-                <p><strong>Em um ano estarei…</strong> atuando dentro da área de UX/UI, e talvez me preparando para
-                  ir
-                  para o Canadá.
-              </div>
-              <p class="phrase">“Quem se atreve dança, quem não dança só bate palma.” <i>Tiago Iorc</i></p>
-            </div>
-          </div>
-          <div class="user">
-            <img src="assets/images/bianca-polaroid-grande.png" class="img-responsive" alt="Bianca Zambonato [Hipster]">
-          </div>
-        </div>
-
-        <div>
-          <div class="message">
-            <div>
-              <p class="name">Brenda Reis [Hyper]</p>
-              <p class="infos">20 | Belo Horizonte - MG | LinkedIn: <a href="https://www.linkedin.com/in/brendaoreis/" target="_blank">/brenda-reis</a> </p>
-              <div class="info-user">
-                <p>Ex graduanda de Economia, tranquei o curso na metade para buscar minha felicidade no Marketing.
-                  Me
-                  descobri no mundo de soluções digitais vivendo no San Pedro Valley, sou apaixonada por livros e
-                  estudo, MUITO curiosa e o tipo de pessoa que “vamos?” “vamos!”. </p>
-                <p>Meu único medo é não ter o reconhecimento profissional que eu busco todos os dias. Com o Gama XP
-                  eu
-                  espero poder me inserir de vez no marketing, desenvolver minhas skills e aprender um pouco de
-                  tudo.
-                </p>
-
-                <p><strong>Sonho grande:</strong> ter a minha própria empresa.</p>
-                <p><strong>O que quero aprender:</strong> todas as etapas do Marketing Digital de forma aplicável e
-                  aprender também tudo o que eu puder sobre as outras áreas, além de desenvolver mais as minhas soft
-                  skills.</p>
-                <p><strong>O que posso ensinar:</strong> importância do Customer Centric, Scrum, Kanban, Design
-                  Sprints,
-                  Customer Success e tudo o que eu for aprendendo dentro da minha stack.</p>
-                <p><strong>Em um ano estarei…</strong> trabalhando no setor de Marketing de alguma empresa ágil e
-                  digital.</p>
-              </div>
-              <p class="phrase">“Dedicação supera talento.” <i></i></p>
-            </div>
-          </div>
-          <div class="user">
-            <img src="assets/images/brenda-polaroid-grande.png" class="img-responsive" alt="Brenda Reis [Hyper]">
-          </div>
-        </div>
-
-        <div>
-          <div class="message">
-            <div>
-              <p class="name">Bruno Silva [Hacker]</p>
-              <p class="infos">32 | Ribeirão Preto - SP | LinkedIn: <a href="https://www.linkedin.com/in/bruno-silva0109/" target="_blank">/bruno-silva</a> </p>
-              <div class="info-user">
-                <p>Trabalho com e-commerce como desenvolvedor front-end e sonho em viajar o mundo e aprender
-                  tecnologias
-                  novas. </p>
-                <p>Com o Gama XP eu espero desenvolver profissional front-end e aprender a tecnologia react para
-                  buscar
-                  oportunidades melhores no mercado.</p>
-
-                <p><strong>Sonho grande:</strong> morar fora do país.</p>
-                <p><strong>O que quero aprender:</strong> tecnologias diferentes para front-end, atuais e top do
-                  momento.</p>
-                <p><strong>O que posso ensinar:</strong> desenhar layouts codificando HTML, CSS e tecnologias
-                  mais atuais
-                  como SASS.</p>
-                <p><strong>Em um ano estarei…</strong> morando longe do interior.</p>
-              </div>
-              <p class="phrase">“As pessoas não terão inveja de você se não souberem quem você é ou o que você tem!”
-                <i></i></p>
-            </div>
-          </div>
-          <div class="user">
-            <img src="assets/images/bruno-polaroid-grande.png" class="img-responsive" alt="Bruno Silva [Hacker]">
-          </div>
-        </div>
-
-        <div>
-          <div class="message">
-            <div>
-              <p class="name">Clarissa Costa [Hyper]</p>
-              <p class="infos">34 | São Paulo - SP | LinkedIn: <a href="https://www.linkedin.com/in/clarissa-dos-santos-costa/" target="_blank">/clarissa-costa</a> </p>
-              <div class="info-user">
-                <p>Nascida em Belém - PA, sou jornalista de formação mas atuo no mundo de Marketing Digital por
-                  paixão
-                  já há 2 anos. Adoro cachorros e o meu maior medo é passar a vida insatisfeita.</p>
-                <p>O que eu espero com o Gama XP é ganhar mais experiência na parte de performance e análise de
-                  dados,
-                  além de fazer networking e buscar outras oportunidades profissionais.</p>
-
-                <p><strong>Sonho grande:</strong> ser feliz com o trabalho que faço.</p>
-                <p><strong>O que quero aprender:</strong> acredito que o gama me trará confiança e conhecimento para
-                  lutar pelos meus objetivos profissionais.</p>
-                <p><strong>O que posso ensinar:</strong> amo tudo que é relacionado com dados e métricas. Sou
-                  paciente e
-                  dificilmente perco o controle.</p>
-                <p><strong>Em um ano estarei…</strong> trabalhando de qualquer lugar do mundo com Marketing Digital.
-                </p>
-              </div>
-              <p class="phrase">“Toda conquista começa com a decisão de tentar..” <i></i></p>
-            </div>
-          </div>
-          <div class="user">
-            <img src="assets/images/clarissa-polaroid-grande.png" class="img-responsive" alt="Clarissa Costa [Hyper]">
-          </div>
-        </div>
-
-        <div>
-          <div class="message">
-            <div>
-              <p class="name">Déborah Monaco [Hipster]</p>
-              <p class="infos">31 | Santo André - SP | LinkedIn: <a href="https://www.linkedin.com/in/deborahmsf/" target="_blank">/deborah-monaco</a> </p>
-              <div class="info-user">
-                <p>Formada em Design Digital, com background em publicidade, hoje trabalho com UI e UX. Sou a louca
-                  do
-                  Animal Crossing no Switch e sou uma mãe orgulhosa de uma menina linda de 4 anos.</p>
-                <p>Gosto de trocar experiências e conhecer histórias. Me preocupo com demais com o futuro e espero
-                  conseguir cada vez mais me envolver em projetos que tenham algum propósito para a melhora na vida
-                  das
-                  pessoas. Com o Gama XP busco me qualificar para alcançar meu objetivo de tornar uma product
-                  designer.
-                </p>
-
-                <p><strong>Sonho grande:</strong> morar na Suécia com a família, trabalhando como UX.</p>
-                <p><strong>O que quero aprender:</strong> desenvolver melhor as etapas de imersão, definição e
-                  ideação
-                  em Design Thinking.</p>
-                <p><strong>O que posso ensinar:</strong> posso ensinar sobre UI, softwares PS, AI.</p>
-                <p><strong>Em um ano estarei…</strong> trabalhando como Product Designer.</p>
-              </div>
-              <p class="phrase">“Tudo depende do tipo de lente que você utiliza para ver as coisas” <i>O Mundo de
-                  Sofia</i></p>
-            </div>
-          </div>
-          <div class="user">
-            <img src="assets/images/deborah-polaroid-grande.png" class="img-responsive" alt="Déborah Monaco [Hipster]">
-          </div>
-        </div>
-
-        <div>
-          <div class="message">
-            <div>
-              <p class="name">Eduardo Pinheiro [Hacker]</p>
-              <p class="infos">24 | Rio de Janeiro - RJ | LinkedIn: <a href="https://www.linkedin.com/in/eduardo-pinheiro-44152a170" target="_blank">/eduardo-pinheiro</a> </p>
-              <div class="info-user">
-                <p>Atuei em diversas áreas e descobri meu amor pela programação. Estudo WebDev e desenvolvo com
-                  Javascript. Sou um nerd meio hippie, curto demais aprender coisas novas e buscar uma luz com a
-                  espiritualidade. Gosto de ser desafiado, sou comunicativo e criativo. Amo a essência do ser humano
-                  e
-                  da natureza como um todo :)</p>
-                <p>Meu maior medo é não poder ser eu mesmo e morrer arrependido de ter terceirizado minhas decisões.
-                  Minha expectativa com a Gama XP é ser exposto a diversas experiências de aprendizado e com isso
-                  extrair o néctar dessa oportunidade incrível!</p>
-
-                <p><strong>Sonho grande:</strong> melhorar a vida das pessoas com o meu trabalho.</p>
-                <p><strong>O que quero aprender:</strong> tudo, sou curioso com tudo, mas o foco é trabalhar em
-                  grupo e
-                  as hard skills da minha área (programação).</p>
-                <p><strong>O que posso ensinar:</strong> lidar melhor com as próprias emoções, um pouco de HTML, CSS
-                  e
-                  Javascript.</p>
-                <p><strong>Em um ano estarei…</strong> trabalhando na minha área, casado com mozão e morando com
-                  ela.
-                </p>
-              </div>
-              <p class="phrase">“Conhece-te a ti mesmo e conhecerás o universo e os Deuses.” <i>Sócrates</i></p>
-            </div>
-          </div>
-          <div class="user">
-            <img src="assets/images/eduardo-polaroid-grande.png" class="img-responsive" alt="Eduardo Pinheiro [Hacker]">
-          </div>
-        </div>
-
-
-        <div>
-          <div class="message">
-            <div>
-              <p class="name">Vinícius Machado [Hacker]</p>
-              <p class="infos">28 | Porto Alegre - RS | LinkedIn: <a href="https://www.linkedin.com/in/viniciusogando/" target="_blank">/vinicius-machado</a> </p>
-              <div class="info-user">
-                <p>Sou estudante de Análise e Desenvolvimento de Sistemas indo para o 4º semestre e tenho
-                  experiência de
-                  9 anos trabalhando com vendas. </p>
-                <p>Adoro surf, futebol e música e tenho medo de tubarão. Com o Gama XP eu espero evoluir em todos os
-                  aspectos.</p>
-
-                <p><strong>Sonho grande:</strong> trabalhar com tecnologia na área relacionada a esportes.</p>
-                <p><strong>O que quero aprender:</strong> tudo que possa me fazer evoluir pessoalmente, mentalmente
-                  e
-                  profissionalmente.</p>
-                <p><strong>O que posso ensinar:</strong> trabalhei 9 anos na área de vendas, acredito que tenho um
-                  bom
-                  conhecimento.</p>
-                <p><strong>Em um ano estarei…</strong> trabalhando em uma nova área que me chamou a atenção e fez eu
-                  mudar de profissão, que é a área da tecnologia.</p>
-              </div>
-              <p class="phrase">“Tenha como meta muita força e muita determinação e faça tudo com muito amor e com
-                muita
-                fé em Deus, que um dia você chega lá.” <i>Ayrton Senna</i></p>
-            </div>
-          </div>
-          <div class="user">
-            <img src="assets/images/vinicius-polaroid-grande.png" class="img-responsive" alt="Vinícius Machado [Hacker]">
-          </div>
-        </div>
-
-
-        <div>
-          <div class="message">
-            <div>
-              <p class="name">Vitor Rodrigues [Hustle]</p>
-              <p class="infos">23 | São Paulo - SP | LinkedIn: <a href="https://www.linkedin.com/in/vitor-rodrigues-2020-/" target="_blank">/vitor-rodrigues</a> </p>
-              <div class="info-user">
-                <p>Atuo há 7 anos na área comercial, tenho experiência com planejamento financeiro, gestão de
-                  projetos,
-                  prospecção fria, treinamento de equipe de vendas, motivacional, apresentação de produtos,
-                  negociação e
-                  técnicas de ligação e fechamento.
-                  Sou extrovertido, comunicativo e simpático. Meu maior medo é perder meus pais e ficar sozinho.</p>
-                <p>Com o Gama XP eu pretendo me desenvolver e aperfeiçoar meu conhecimento com vendas, porém no ramo
-                  da
-                  tecnologia.</p>
-
-                <p><strong>Sonho grande:</strong> independência financeira.</p>
-                <p><strong>O que quero aprender:</strong> vendas na área de tecnologia.</p>
-                <p><strong>O que posso ensinar:</strong> técnicas de vendas e técnicas para prospecção fria.</p>
-                <p><strong>Em um ano estarei…</strong> satisfeito com minha vida profissional.</p>
-              </div>
-              <p class="phrase">“Você é do tamanho que acredita ser, pense grande e seja grande.” <i></i></p>
-            </div>
-          </div>
-          <div class="user">
-            <img src="assets/images/vitor-polaroid-grande.png" class="img-responsive" alt="Vitor Rodrigues [Hustle]">
-          </div>
-        </div>
-      </div>
-    </div>
-  <!-- FIM - Nosso Time -->
-
-  <!-- INICIO - Online Meeting -->
-  <section class="online-meeting">
-    <h3>Online Meeting</h3>
-    <img src="assets/images/online-meeting.png" />
-    <div class="online-meeting-text">
-      <p>Graças a essa tecnologia maravilhosa e ao Gama, pudemos nos reunir mesmo estando espalhados pelo Brasil! Foi
-        muito legal conhecer cada um individualmente, já que todo mundo pode contar um pouco da sua história.
-        Compartilhamos entre nós, o que gostamos de fazer, nosso maior medo, nossas expectativas com esse desafio, nossa
-        frase favorita e muito mais! E também trocamos perfis do LinkedIn para expandir nosso networking, é claro!</p>
-      <p>Em uma sessão de brainstorming criamos o nome da nossa empresa: Gamavengers. Resolvemos nos apresentar para o
-        Gama Experience através dessa página web, com intenção de mostrar as características especiais dos nossos super
-        heróis e de nos desafiarmos a produzir algo que nos tirasse da zona de conforto. #tôfora</p>
-    </div>
-    <h4>ATÉ AGORA NOSSA EXPERIÊNCIA COM O GAMA EXPERIENCE TEM SIDO DESAFIADORA!</h4>
-  </section>
-  <!-- FIM - Online Meeting -->
-
-  <!-- INICIO - Footer -->
-  <footer class="footer" id="footer">
-    <div class="logo">
-      <img src="assets/images/logo-w.png" class="img-responsive">
-      <p><strong>Contato:</strong> email@gmail.com</p>
     </div>
 
-    <!-- <p>Footer</p> -->
-  </footer>
-  <!-- FIM - Footer -->
-
-
-  
-  <!-- Facebook Pixel Code -->
-  <script>
+    <!-- Facebook Pixel Code -->
+<script>
     !function(f,b,e,v,n,t,s)
     {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
     n.callMethod.apply(n,arguments):n.queue.push(arguments)};
@@ -930,76 +189,69 @@ body {
     t.src=v;s=b.getElementsByTagName(e)[0];
     s.parentNode.insertBefore(t,s)}(window, document,'script',
     'https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', '965884497216263');
+    fbq('init', '588132055410779');
     fbq('track', 'PageView');
   </script>
   <noscript><img height="1" width="1" style="display:none"
-      src="https://www.facebook.com/tr?id=965884497216263&ev=PageView&noscript=1"
+    src="https://www.facebook.com/tr?id=588132055410779&ev=PageView&noscript=1"
   /></noscript>
   <!-- End Facebook Pixel Code -->
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-171421993-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-171421993-1', { 'optimize_id': 'GTM-TWNZGZZ'});
+    </script>
+
+    <!-- Hotjar Tracking Code for http://9storm.com.br/home.html -->
+    <script>
+        (function(h,o,t,j,a,r){
+            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+            h._hjSettings={hjid:1882742,hjsv:6};
+            a=o.getElementsByTagName('head')[0];
+            r=o.createElement('script');r.async=1;
+            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+    </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+        integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-migrate-3.3.0.min.js"
+        integrity="sha256-wZ3vNXakH9k4P00fNGAlbN0PkpKSyhRa76IFy4V1PYE=" crossorigin="anonymous"></script>
+
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.js"></script>
+        <script src="src/js/animations.js"></script>
   
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-171421993-1"></script>
-  <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<script>
+var slide = 0;
+if(screen.width < 767){
+    slide = 1;
+} else if (screen.width >= 768){
+    slide = 7;
+}
 
-  gtag('config', 'UA-171421993-1');
-  </script>
-
-
-  <!-- Hotjar Tracking Code for http://9storm.com.br/home.html -->
-  <script>
-    (function(h,o,t,j,a,r){
-        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-        h._hjSettings={hjid:1882742,hjsv:6};
-        a=o.getElementsByTagName('head')[0];
-        r=o.createElement('script');r.async=1;
-        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-        a.appendChild(r);
-    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-  </script>
-
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <!-- <script src="assets/css/bootstrap/dist/js/bootstrap.min.js"></script> -->
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-  <script
-  src="https://code.jquery.com/jquery-1.12.4.min.js"
-  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
-  crossorigin="anonymous"></script>
-  <script
-  src="https://code.jquery.com/jquery-migrate-3.3.0.min.js"
-  integrity="sha256-wZ3vNXakH9k4P00fNGAlbN0PkpKSyhRa76IFy4V1PYE="
-  crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.js"></script>
-
-  <script>
     $('.carousel').slick({
-      dots: false,
-      infinite: false,
-      speed: 500,
-      slidesToShow: 1,
-      arrows: true,
-      slidesToScroll: 1,
+        dots: false,
+        infinite: true,
+        speed: 500,
+        slidesToShow:slide,
+        arrows: true,
+        nav:true,
+        slidesToScroll: 1,
     });
+</script>
 
-    // scroll suave
-    $('.navigation a[href^="#"]').on('click', function (e) {
-      e.preventDefault();
-      var id = $(this).attr('href'),
-        targetOffset = $(id).offset().top;
+    
 
-      $('html, body').animate({
-        scrollTop: targetOffset - 100
-      }, 500);
-    });
-  </script>
 </body>
 
 </html>
