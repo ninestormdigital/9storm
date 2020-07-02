@@ -44,6 +44,53 @@
     display: flex;
     flex-direction: column;
 
+    .download-ebooks{
+      margin: 0 auto;
+      display: flex;
+      height: 300px;
+      width: 570px;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 30px;
+
+      a{
+        text-decoration: none;
+        color: $black;
+        }
+      .card{
+          width: 224px;
+          height: 250px;
+          background: linear-gradient(0deg, #FFFFFF, #FFFFFF), #FFFFFF;
+          border: 2px solid #000000;
+          box-shadow: 10px 10px 0px #000000;
+          border-radius: 16px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          text-align: center;
+          
+          img{
+              width: 120px;
+              height: 120px;
+              margin-bottom: -20px;
+          }
+          p{
+              width: 192px;
+              height: 66px;  
+              line-height: 18px; 
+              font-weight: normal;
+          }
+          strong{
+              font-family: Ubuntu;
+              font-style: normal;
+              font-weight: bold;
+              font-size: 16px;
+              text-align: center;
+          }
+      }
+    }
+
     p{
       margin-top: 30px;
       font-family: 'Ubuntu', sans-serif;

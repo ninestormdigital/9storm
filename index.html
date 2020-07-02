@@ -9,7 +9,7 @@
         }
     </style>
     <script>(function (a, s, y, n, c, h, i, d, e) {
-        s.className += ' ' + y; h.start = 1 * new Date;
+            s.className += ' ' + y; h.start = 1 * new Date;
             h.end = i = function () { s.className = s.className.replace(RegExp(' ?' + y), '') };
             (a[n] = a[n] || []).hide = h; setTimeout(function () { i(); h.end = null }, c); h.timeout = c;
         })(window, document.documentElement, 'async-hide', 'dataLayer', 4000,
@@ -141,25 +141,36 @@
     <section class="products">
         <div class="container">
             <h2 class="title">Confira nossos produtos</h2>
-
+            <div class="card-ebooks">
+                <a href="javascript:void(0);" data-toggle="modal" data-target="#ExemploModalCentralizado">
+                    <div class="card">
+                        <img src="./assets/images/landing-page/capa-ebook1.jpg" alt="Capa Ebook 1">
+                        <p>EBOOK<br><strong>Idéias Criativas para seus Stories</strong></p>
+                    </div>
+                </a>
+                <a href="javascript:void(0);" data-toggle="modal" data-target="#ExemploModalCentralizado">
+                    <div class="card">
+                        <img src="./assets/images/landing-page/capa-ebook2.jpg" alt="Capa Ebook 1">
+                        <p>EBOOK<br><strong>Top 3 melhores apps para impactar no Instagram</strong></p>
+                    </div>
+                </a>
+            </div>
             <div class="itens">
                 <div></div>
                 <div></div>
             </div>
 
-            <p class="message"><span>Prenda a atenção de todos</span> que passam pelas suas postagens nos stories de forma impactante, totalmente criativa, inovadora, com mais filtros, novas fontes, gifs exclusivos e o melhor, de uma forma <span>100% online e 100% gratuita!</span></p>
+            <p class="message"><span>Prenda a atenção de todos</span> que passam pelas suas postagens nos stories de
+                forma impactante, totalmente criativa, inovadora, com mais filtros, novas fontes, gifs exclusivos e o
+                melhor, de uma forma <span>100% online e 100% gratuita!</span></p>
 
-            <a href="javascript:void(0);" class="btn-download">acesse conteÚdo grátis</a>
+            <a href="javascript:void(0);" data-toggle="modal" data-target="#ExemploModalCentralizado"
+                class="btn-download">acesse conteÚdo grátis</a>
         </div>
     </section>
 
     <footer class="footer">
         <div class="container">
-            <p><strong>Prenda a atenção de todos</strong> que passam pelas suas postagens nos stories de forma
-                impactante, totalmente
-                criativa, inovadora, com mais filtros, novas fontes, gifs exclusivos e o melhor, de uma forma
-                <strong>100%
-                    online e 100% gratuita!</strong></p>
             <h2 class="title">Comece a aprender agora com conteúdo<br> gratuito e exclusivo.</h2>
             <a href="javascript:void(0);" class="btn-download" data-toggle="modal"
                 data-target="#ExemploModalCentralizado">FAÇA O DOWNLOAD</a>
@@ -168,11 +179,11 @@
             <span>© 2020 9Storm. All rights reserved.</span>
 
             <div class="social-media">
-                <a class="social-link" href="https://www.instagram.com/9stormdigital/">
+                <a class="social-link" href="https://www.instagram.com/9stormdigital/" target="_blank">
                     <img src="assets/images/landing-page/instagram.svg">
                     <span>@9stormdigital</span>
                 </a>
-                <a class="social-link" href="https://www.facebook.com/9stormdigital-103130204802039">
+                <a class="social-link" href="https://www.facebook.com/9stormdigital-103130204802039" target="_blank">
                     <img src="assets/images/landing-page/facebook.svg">
                     <span>/9stormdigital</span>
                 </a>
@@ -202,7 +213,7 @@
                                     title="Digite seu nome completo" placeholder="Digite seu nome completo" required />
                             </div>
                             <div class="form-group">
-                                <input name="email" type="email" placeholder="Email para" required />
+                                <input name="email" type="email" placeholder="Seu melhor email &lt;3" required />
                             </div>
 
                             <input name="redirectTo" type="hidden" value="http://9storm.com.br/obrigado.html" />
@@ -218,23 +229,25 @@
         </div>
     </div>
 
-<!-- Facebook Pixel Code -->
-<script>
-    !function(f,b,e,v,n,t,s)
-    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-    n.queue=[];t=b.createElement(e);t.async=!0;
-    t.src=v;s=b.getElementsByTagName(e)[0];
-    s.parentNode.insertBefore(t,s)}(window, document,'script',
-    'https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', '588132055410779');
-    fbq('track', 'PageView');
-  </script>
-  <noscript><img height="1" width="1" style="display:none"
-    src="https://www.facebook.com/tr?id=588132055410779&ev=PageView&noscript=1"
-  /></noscript>
-  <!-- End Facebook Pixel Code -->
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '588132055410779');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=588132055410779&ev=PageView&noscript=1" /></noscript>
+    <!-- End Facebook Pixel Code -->
 
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -267,29 +280,29 @@
         integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-migrate-3.3.0.min.js"
         integrity="sha256-wZ3vNXakH9k4P00fNGAlbN0PkpKSyhRa76IFy4V1PYE=" crossorigin="anonymous"></script>
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.js"></script>
-        <script src="src/js/animations.js"></script>
-  
-<script>
-var slide = 0;
-if(screen.width < 767){
-    slide = 1;
-} else if ((screen.width >= 768) || (screen.width < 1349)){
-    slide = 5;
-} else if (screen.width >= 1350){
-    slide = 7;
-}
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.js"></script>
+    <script src="src/js/animations.js"></script>
 
-    $('.carousel').slick({
-        dots: false,
-        infinite: true,
-        speed: 500,
-        slidesToShow:slide,
-        arrows: true,
-        nav:true,
-        slidesToScroll: 1,
-    });
-</script>
+    <script>
+        var slide = 0;
+        if (screen.width < 767) {
+            slide = 1;
+        } else if ((screen.width >= 768) || (screen.width < 1349)) {
+            slide = 5;
+        } else if (screen.width >= 1350) {
+            slide = 7;
+        }
+
+        $('.carousel').slick({
+            dots: false,
+            infinite: true,
+            speed: 500,
+            slidesToShow: slide,
+            arrows: true,
+            nav: true,
+            slidesToScroll: 1,
+        });
+    </script>
 
 </body>
 
