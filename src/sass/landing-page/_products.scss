@@ -1,5 +1,7 @@
 .products{
     background-color: $ocre;
+    display: flex;
+    flex-direction: column;
 
     .container{
         padding-top: 80px;
@@ -63,6 +65,15 @@
                     text-align: center;
                 }
             }
+
+            @media screen and (max-width: 780px){
+                flex-direction: column;
+                width: auto;
+                height: auto;
+                .card{
+                    margin-bottom: 40px;
+                }
+            }
         }
 
         .message{
@@ -79,6 +90,10 @@
 
             span{
                 font-weight: bold;
+            }
+
+            @media screen and (max-width: 780px){
+                width: auto;
             }
         }
 
@@ -97,5 +112,6 @@
             
             @include btn-download($black, $white);
         }
+
     }
 }
