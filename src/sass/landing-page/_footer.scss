@@ -55,6 +55,12 @@
             line-height: 22px;
         }
 
+        .social-media{
+            .social-link{
+                margin: 0 20px;
+            }
+        }
+
         .social-link{
             font-family: Nunito;
             font-style: normal;
@@ -69,6 +75,8 @@
             height: 50px;
             filter: invert(74%) sepia(79%) saturate(942%) hue-rotate(354deg) brightness(94%) contrast(109%);
         }
+
+        
     }
 
     @media screen and (max-width: 540px) {

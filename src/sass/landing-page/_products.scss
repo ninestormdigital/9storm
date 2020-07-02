@@ -1,0 +1,56 @@
+.products{
+    background-color: $ocre;
+
+    .container{
+        padding-top: 80px;
+        padding-bottom: 80px;
+
+        .title{
+            font-family: 'Ubuntu', sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 32px;
+            line-height: 37px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: $black;
+            margin-bottom: 40px;
+        }
+
+
+        .message{
+            font-family: 'Nunito', sans-serif;
+            font-style: normal;
+            font-size: 16px;
+            line-height: 22px;
+            align-items: center;
+            text-align: center;
+            width: 486px;
+            color: #000000;
+            flex-wrap: wrap;
+            margin: 0 auto 40px;
+
+            span{
+                font-weight: bold;
+            }
+        }
+
+        .btn-download{
+            text-transform: uppercase;
+            width: 280px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Nunito', sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 15px;
+            line-height: 20px;
+            margin: 0 auto;
+            
+            @include btn-download($black, $white);
+        }
+    }
+}
