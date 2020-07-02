@@ -1,12 +1,34 @@
 # 9storm
 
 A 9storm é uma equipe formada por 9 profissionais que atuam entre marketing, design, programação e comercial. Somos apaixonados pelo digital e tudo que é criativo! Aqui você vai encontrar o conteúdo que você estava procurando para melhorar suas postagens nas redes sociais, vem com a gente #weare9storm ⚡️
-Esse é um projeto idealizado por: Brenda Reis, Clarissa Costa, Andreza Rockenbach, Bianca Zambonato, Déborah Mônaco, Eduardo Pinheiro, Bruno Silva, Vinícius Machado e Vitor Rodrigues.
+Esse é um projeto idealizado por: 
+ * Brenda Reis, 
+ * Clarissa Costa, 
+ * Andreza Rockenbach, 
+ * Bianca Zambonato, 
+ * Déborah Mônaco, 
+ * Eduardo Pinheiro, 
+ * Bruno Silva, 
+ * Vinícius Machado e 
+ * Vitor Rodrigues.
+ 
+![equipe](https://user-images.githubusercontent.com/67563829/86363870-d2997f00-bc4d-11ea-95ad-54ccd03089a8.jpg)
 
-Cansado dos mesmos filtros e fontes do instagram para seus stories? Veja esse ebook com várias dicas incríveis para suas postagens ficarem sensacionais!
+
 
 
 **FOCO/OBJETIVO:** ebook para fazer stories de sucesso e conquistar followers
+![followers](https://user-images.githubusercontent.com/67563829/86363552-66b71680-bc4d-11ea-99b1-6b34f17b8147.png)
+
+
+Cansado dos mesmos filtros e fontes do instagram para seus stories? 
+
+Veja esse ebook com várias dicas incríveis para suas postagens ficarem sensacionais!
+
+![tecnicas](https://user-images.githubusercontent.com/67563829/86363619-7df60400-bc4d-11ea-897d-feef44222b79.png)
+
+
+
 
 <!-- 
 ## Bem vindo! 👋
