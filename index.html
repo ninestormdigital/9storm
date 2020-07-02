@@ -223,7 +223,7 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
   /></noscript>
   <!-- End Facebook Pixel Code -->
 
-  
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-171421993-1"></script>
     <script>
@@ -262,7 +262,9 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
 var slide = 0;
 if(screen.width < 767){
     slide = 1;
-} else if (screen.width >= 768){
+} else if ((screen.width >= 768) || (screen.width < 1349)){
+    slide = 5;
+} else if (screen.width >= 1350){
     slide = 7;
 }
 

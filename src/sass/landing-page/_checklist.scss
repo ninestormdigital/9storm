@@ -90,7 +90,7 @@
                     height: 40px;
                     width: 30px;
                     justify-content: center;
-                    left: calc(95vw / 2);
+                    left: calc(94vw / 2);
                     position: absolute;
                     align-items: center;
                     z-index: 9;
@@ -107,7 +107,7 @@
                     height: 40px;
                     width: 30px;
                     justify-content: center;
-                    right: calc(95vw / 2);
+                    right: calc(94vw / 2);
                     position: absolute;
                     align-items: center;
                     z-index: 9;
@@ -130,6 +130,18 @@
     
                 .slick-slide.slick-active, .slick-slide{
                     margin: 0 28px;
+
+                    @media screen and (width: 1349px){
+                        margin: 0 24px !important;
+                    }
+
+                    @media screen and (min-width: 1400px){
+                        margin: 0 8px !important;
+                    }
+
+                    @media screen and (min-width: 1600px){
+                        margin: 0 20px !important;
+                    }
                 }
             }
         }
