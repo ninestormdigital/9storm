@@ -92,43 +92,43 @@
             <div class="carousel-wrapper">
                 <div class="carousel">
                     <div>
-                        <img src="assets/images/carousel/insta-1.png" class="img-responsive" alt="insta">
+                        <img src="assets/images/carousel/insta-1.webp" class="img-responsive" alt="insta">
                     </div>
 
                     <div>
-                        <img src="assets/images/carousel/insta-2.png" class="img-responsive" alt="insta">
+                        <img src="assets/images/carousel/insta-2.webp" class="img-responsive" alt="insta">
                     </div>
 
                     <div>
-                        <img src="assets/images/carousel/insta-3.png" class="img-responsive" alt="insta">
+                        <img src="assets/images/carousel/insta-3.webp" class="img-responsive" alt="insta">
                     </div>
 
                     <div>
-                        <img src="assets/images/carousel/insta-4.png" class="img-responsive" alt="insta">
+                        <img src="assets/images/carousel/insta-4.webp" class="img-responsive" alt="insta">
                     </div>
 
                     <div>
-                        <img src="assets/images/carousel/insta-5.png" class="img-responsive" alt="insta">
+                        <img src="assets/images/carousel/insta-5.webp" class="img-responsive" alt="insta">
                     </div>
 
                     <div>
-                        <img src="assets/images/carousel/insta-6.png" class="img-responsive" alt="insta">
+                        <img src="assets/images/carousel/insta-6.webp" class="img-responsive" alt="insta">
                     </div>
 
                     <div>
-                        <img src="assets/images/carousel/insta-7.png" class="img-responsive" alt="insta">
+                        <img src="assets/images/carousel/insta-7.webp" class="img-responsive" alt="insta">
                     </div>
 
                     <div>
-                        <img src="assets/images/carousel/insta-8.png" class="img-responsive" alt="insta">
+                        <img src="assets/images/carousel/insta-8.webp" class="img-responsive" alt="insta">
                     </div>
 
                     <div>
-                        <img src="assets/images/carousel/insta-9.png" class="img-responsive" alt="insta">
+                        <img src="assets/images/carousel/insta-9.webp" class="img-responsive" alt="insta">
                     </div>
 
                     <div>
-                        <img src="assets/images/carousel/insta-10.png" class="img-responsive" alt="insta">
+                        <img src="assets/images/carousel/insta-10.webp" class="img-responsive" alt="insta">
                     </div>
 
                 </div>
@@ -152,6 +152,12 @@
                     <div class="card">
                         <img src="./assets/images/landing-page/capa-ebook2.jpg" alt="Capa Ebook 1">
                         <p>EBOOK<br><strong>Top 3 melhores apps para impactar no Instagram</strong></p>
+                    </div>
+                </a>
+                <a href="javascript:void(0);" data-toggle="modal" data-target="#ExemploModalCentralizado">
+                    <div class="card">
+                        <img src="./assets/images/landing-page/capa-ebook3.jpg" alt="Capa Ebook 1">
+                        <p>EBOOK<br><strong>3 passos para bio do Instagram com símbolo</strong></p>
                     </div>
                 </a>
             </div>
@@ -287,8 +293,8 @@
         var slide = 0;
         if (screen.width < 767) {
             slide = 1;
-        } else if ((screen.width >= 768) || (screen.width < 1349)) {
-            slide = 5;
+        } else if (screen.width < 1349) {
+            slide = 3;
         } else if (screen.width >= 1350) {
             slide = 7;
         }

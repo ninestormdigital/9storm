@@ -90,14 +90,14 @@
                     height: 40px;
                     width: 30px;
                     justify-content: center;
-                    left: calc(94vw / 2);
+                    left: calc(92vw / 2);
                     position: absolute;
                     align-items: center;
                     z-index: 9;
                     top: calc(110% + 50px);
 
                     @media screen and (max-width: 767px){
-                        display: none !important;
+                        left: calc(80vw / 2) !important;
                     }
                 }
 
@@ -107,14 +107,14 @@
                     height: 40px;
                     width: 30px;
                     justify-content: center;
-                    right: calc(94vw / 2);
+                    right: calc(92vw / 2);
                     position: absolute;
                     align-items: center;
                     z-index: 9;
                     top: calc(110% + 50px);
 
                     @media screen and (max-width: 767px){
-                        display: none !important;
+                        right: calc(80vw / 2) !important;  
                     }
                 }
                 
@@ -128,13 +128,37 @@
                     justify-content: space-around;
                 }
     
-                .slick-slide.slick-active, .slick-slide{
-                    margin: 0 28px;
-
-                    @media screen and (width: 1349px){
-                        margin: 0 24px !important;
+                @media screen and (max-width: 767px){
+                    .slick-list.draggable{
+                        right: 0px !important;
                     }
 
+                    .slick-slide.slick-active, .slick-slide{
+                        margin: 0 5px !important;
+                    }
+                }
+
+                @media screen and (min-width: 768px){
+                    .slick-list.draggable{
+                        right: 0px !important;
+                    }
+
+                    .slick-slide.slick-active, .slick-slide{
+                        margin: 0 20px !important;
+                    }
+                }
+
+                @media screen and (min-width: 768px){
+                    .slick-list.draggable{
+                        right: 0px !important;
+                    }
+
+                    .slick-slide.slick-active, .slick-slide{
+                        margin: 0 45px !important;
+                    }
+                }
+
+                .slick-slide.slick-active, .slick-slide{
                     @media screen and (min-width: 1400px){
                         margin: 0 8px !important;
                     }
@@ -161,6 +185,10 @@
 
             @media screen and (max-width: 767px) {
                 top: 1140px !important;
+            }
+
+            @media screen and (max-width: 1200px) {
+                display: none;
             }
         }
     }

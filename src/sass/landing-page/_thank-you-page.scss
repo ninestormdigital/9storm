@@ -54,7 +54,6 @@
       margin: 0 auto;
       display: flex;
       height: 300px;
-      width: 570px;
       align-items: center;
       justify-content: space-between;
       margin-bottom: 30px;
@@ -62,6 +61,7 @@
       a{
         text-decoration: none;
         color: $black;
+        margin: 15px;
         }
       .card{
           width: 224px;
