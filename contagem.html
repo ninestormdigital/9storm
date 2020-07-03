@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contagem</title>
+  <style>
+    body {
+      padding: 0;
+      margin: 0;
+      background: #333;
+      color: #F9BE00;
+      font-family: SEGOE UI;
+    }
+
+    .dados {
+      display: flex;
+      text-align: center;
+      flex-direction: column;
+    }
+
+    h2 {
+      font-size: 35px;
+    }
+
+    h1 {
+      margin-top: -30px;
+      font-size: 75px;
+    }
+
+    header {
+      background: black;
+      height: 75px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    img {
+      filter: invert(100%);
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <img src="./assets/images/9storm-b.svg" alt="" height="50">
+  </header>
+  <div class="dados">
+    <h2>Número de leads coletados:</h2>
+    <h1 class="leads">10</h1>
+  </div>
+  <div class="lista-leads">
+  </div>
+  <script>
+    const numLeads = document.querySelector(".leads")
+    const listaLeads = document.querySelector(".lista-leads")
+
+    window.onload = requestURL;
+
+    function requestURL() {
+      fetch('https://smtl.gama.academy/leads/bfef0a21-b7e1-11ea-8228-89cff86db9a0')
+        .then((response) => response.json())
+        .then((data) => resposta(data));
+    }
+
+    function resposta(json) {
+      let leadIPs = []
+
+      json.forEach(lead => {
+        leadIPs.push(lead.ip)
+      })
+
+      let leadsFiltrados = leadIPs.filter((elem, index, array) => {
+        return array.indexOf(elem) == index;
+      })
+
+      console.log(leadsFiltrados)
+
+      numLeads.innerText = leadsFiltrados.length
+
+      // leadsQualificados.forEach((lead) => {
+      //   let leadInfo = document.createElement("div")
+      //   leadInfo.innerHTML = `
+      //   <p><strong>Nome:</strong> ${lead.name}</p>
+      //   <p><strong>Email:</strong>${lead.email}</p>
+      //   <p><strong>IP:</strong>${lead.ip}</p>
+      //   `
+      //   listaLeads.appendChild(leadInfo)
+      // })
+    }
+  </script>
+</body>
+
+</html>
